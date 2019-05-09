@@ -1,6 +1,6 @@
 ---
-layout: 
 title: Arthur Tham
+published: true
 ---
 
 ## Hello world!
