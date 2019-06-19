@@ -7,6 +7,9 @@ layout: home_landing
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
     crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 # About Arthur
 Hello! My name is Arthur Tham, and I am a **first-year Master of Science (M.S.), Computer Science** graduate student at 
@@ -107,4 +110,73 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
 </div>
 
 ---
+
+# Games And Stuff
+
+<div class="bd-example">
+  <div id="carouselGames" class="carousel slide" data-ride="carousel" data->
+    <ol class="carousel-indicators">
+      <li data-target="#carouselGames" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselGames" data-slide-to="1"></li>
+      <li data-target="#carouselGames" data-slide-to="2"></li>
+      <li data-target="#carouselGames" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/carouselHackuwu.png" class="d-block w-100 h-50" alt="..."/>
+        <div class="carousel-caption ">
+          <strong><h5>HackUWU</h5></strong>
+          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
+          <small>Features APIs from Transposit, Giphy, Sendgrid, GCP.</small><br/>
+          450 Owos. 36 Ewes. Unlimited Uwus.</p>
+          <a class="btn btn-info" href="http://www.hackuwu.tech">Play </a>
+          <a class="btn btn-success" href="https://devpost.com/software/hackuwu">Info</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/carouselPetey.png" class="d-block w-100 h-50" alt="..."/>
+        <div class="carousel-caption ">
+          <strong><h5>Petey Jump</h5></strong>
+          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
+          Train your Peteys to soar as high as possible!</p>
+          <a class="btn btn-info" href="http://nexus.ucicirclek.com/PeteyJump/">Play </a>
+          <a class="btn btn-success" href="https://devpost.com/software/petey-jump">Info</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/carouselInduction.png" class="d-block w-100 h-50" alt="..."/>
+        <div class="carousel-caption ">
+          <strong><h5>Induction Night</h5></strong>
+          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
+          Experience Induction Night and life as a UCI Circle K member as you explore popular destinations around campus!</p>
+          <a class="btn btn-success" href="http://nexus.ucicirclek.com/IN/">Play</a>
+          <a class="btn btn-info" href="https://devpost.com/software/induction-night">Info</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/carouselMillionaire.png" class="d-block w-100 h-50" alt="..."/>
+        <div class="carousel-caption ">
+          <strong><h5>Millionaire: UCICKI Edition</h5></strong>
+          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
+          Do you have what it takes to win 1 Million Zot Bucks?</p>
+          <a class="btn btn-success" href="http://nexus.ucicirclek.com/Millionaire/">Play</a>
+          <a class="btn btn-info" href="https://devpost.com/software/millionaire-uci-circle-k-edition">Info</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselGames" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselGames" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
 
