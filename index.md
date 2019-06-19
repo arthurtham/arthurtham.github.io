@@ -1,7 +1,8 @@
 ---
 title: Arthur Tham
 published: true
+layout: home_landing
 ---
 
-## Hello world!
+# About Arthur
 I'm hosted with GitHub Pages.
