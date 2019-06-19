@@ -9,3 +9,5 @@
  gfm_quirks: paragraph_end
  title: Arthur Tham
  description: Browntul
+
+theme: jekyll-theme-cayman
