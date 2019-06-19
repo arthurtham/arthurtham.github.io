@@ -37,6 +37,47 @@ I also spent time with Anteater Television, UCI Summer Session, and UCICKI as a 
 in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch as both a videographer and reporter.
 
 ---
+
+# Awards
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/img/awardHackuwu.png" width:200px /><br/>
+            <b>Best Joke Hack</b><br/>
+            <i>HackUWU</i><br/>
+            <small>HackUCI 2019</small>
+        </div>
+        <div class="col-md-4">
+            <img src="/img/awardOctopet.png" width:200px /><br />
+            <b>Entertainment Runner Up</b><br/>
+            <i>Octopet</i><br/>
+            <small>HackSC 2019</small>
+        </div>
+        <div class="col-md-4">
+            <img src="/img/awardUROP.png" width:200px /><br />
+            <b>Poster Presenter</b><br/>
+            <i>A Content Analysis of Popular Diet, Fitness, and Weight Self-Tracking Mobile Apps on Google Play</i><br/>
+            <small>UCI UROP Symposium</small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                <li><b>Best Club Website</b>: <i>2016-17 UCI</i>, Circle K International at UC Irvine </li>
+                <li><b>Membership Recognition Program</b>: <i>Silver (1), Bronze (2)</i>, Circle K International at UC Irvine </li>
+                <li><b>Dean's Honor List</b>: <i>10 times</i>, UC Irvine </li>
+                <li><b>ICS Honors Program</b>: <i>Completed</i>, UC Irvine </li>
+                <li><b>Talent Runner-up</b>: <i>Millionaire, Game Show Host</i>, Middle Earth Performing Artists In Residence</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+---
+# Skills
+
 <div class="page-header">
     <div class="container">
         <div class="row">
@@ -268,6 +309,7 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
 </div>
 
 ---
+# Workshops
 
 <div class="page-header">
     <div class="container">
@@ -275,7 +317,7 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                    <strong style="color:black">Workshops: Things I Taught</strong>
+                    <strong style="color:black">Things I Taught</strong>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card">
