@@ -43,7 +43,7 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h2>Computer Skills</h2>
+                        <strong style="color:black">Computer Skills</strong>
                         <h6>High-level Language</h6>
                         <table>
                             <tr><center>
@@ -73,7 +73,7 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h2 class="card-title">Media Skills</h2>                                        
+                        <strong style="color:black">Media Skills</strong>                                        
                             <h6>Editing Software</h6>
                             <table>
                                 <tr><center>
@@ -114,7 +114,7 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
 # Games And Stuff
 
 <div class="bd-example">
-  <div id="carouselGames" class="carousel slide" data-ride="carousel" data->
+  <div id="carouselGames" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselGames" data-slide-to="0" class="active"></li>
       <li data-target="#carouselGames" data-slide-to="1"></li>
@@ -123,47 +123,47 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/carouselHackuwu.png" class="d-block w-100 h-50" alt="..."/>
+        <img src="/img/carouselHackuwu.png" class="d-block w-100  h-75" alt="..."/>
         <div class="carousel-caption ">
           <strong><h5>HackUWU</h5></strong>
-          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <p><i>February 2019 | HackSC 2019</i><br />
+          <span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
           <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
           <small>Features APIs from Transposit, Giphy, Sendgrid, GCP.</small><br/>
           450 Owos. 36 Ewes. Unlimited Uwus.</p>
-          <a class="btn btn-info" href="http://www.hackuwu.tech">Play </a>
-          <a class="btn btn-success" href="https://devpost.com/software/hackuwu">Info</a>
+          <a class="btn btn-info" href="https://devpost.com/software/hackuwu">Info</a>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/img/carouselPetey.png" class="d-block w-100 h-50" alt="..."/>
+        <img src="/img/carouselPetey.png" class="d-block w-100  h-75" alt="..."/>
         <div class="carousel-caption ">
           <strong><h5>Petey Jump</h5></strong>
-          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <p><i>November 2017</i><br />
+          <span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
           <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
           Train your Peteys to soar as high as possible!</p>
-          <a class="btn btn-info" href="http://nexus.ucicirclek.com/PeteyJump/">Play </a>
-          <a class="btn btn-success" href="https://devpost.com/software/petey-jump">Info</a>
+          <a class="btn btn-info" href="https://devpost.com/software/petey-jump">Info</a>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/img/carouselInduction.png" class="d-block w-100 h-50" alt="..."/>
+        <img src="/img/carouselInduction.png" class="d-block w-100  h-75" alt="..."/>
         <div class="carousel-caption ">
           <strong><h5>Induction Night</h5></strong>
-          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <p><i>March 2017/June 2017</i><br />
+          <span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
           <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
           Experience Induction Night and life as a UCI Circle K member as you explore popular destinations around campus!</p>
-          <a class="btn btn-success" href="http://nexus.ucicirclek.com/IN/">Play</a>
           <a class="btn btn-info" href="https://devpost.com/software/induction-night">Info</a>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/img/carouselMillionaire.png" class="d-block w-100 h-50" alt="..."/>
+        <img src="/img/carouselMillionaire.png" class="d-block w-100 h-75" alt="..."/>
         <div class="carousel-caption ">
           <strong><h5>Millionaire: UCICKI Edition</h5></strong>
-          <p><span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
+          <p><i>October 2016</i><br />
+          <span class="badge badge-success" style="float:center;width:50%">Game Maker Language</span><br/>
           <span class="badge badge-danger" style="float:center;width:50%">PHP</span><br/>
           Do you have what it takes to win 1 Million Zot Bucks?</p>
-          <a class="btn btn-success" href="http://nexus.ucicirclek.com/Millionaire/">Play</a>
           <a class="btn btn-info" href="https://devpost.com/software/millionaire-uci-circle-k-edition">Info</a>
         </div>
       </div>
@@ -179,4 +179,139 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
   </div>
 </div>
 
+---
 
+# Media
+
+<div id="mediacontent" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#mediacontent" data-slide-to="0" class="active"></li>
+        <li data-target="#mediacontent" data-slide-to="1"></li>
+        <li data-target="#mediacontent" data-slide-to="2"></li>
+        <li data-target="#mediacontent" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="http://img.youtube.com/vi/WNNY8JMhoAg/0.jpg" alt="Circle K"
+                style="width:100%;-webkit-filter: blur(5px);-moz-filter: blur(5px);
+                -o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);">
+                <div class="carousel-caption  ">
+                    <h3>Finding Circle K - UCI Circle K Orientation Video 2016</h3>
+                    <p>UCI Circle K<br>
+                    <i>September 21st, 2016</i><br />
+                    <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing (co-Editor)</span> <span class="badge badge-danger">FCPX</span>
+                    <br>Filmed and edited a short film for a university community service club.<br/>
+                    <a href="https://www.youtube.com/v/WNNY8JMhoAg" target="_blank"
+                        class="badge badge-success">Watch!</a>
+                    </p>
+                </div>
+        </div>
+        <div class="carousel-item">
+            <img src="http://img.youtube.com/vi/TgpxNqzkCRQ/0.jpg" alt="UCISS1"
+                style="width:100%;-webkit-filter: blur(5px);-moz-filter: blur(5px);
+                -o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);">
+                <div class="carousel-caption  ">
+                    <h3>UCI Summer Session</h3>
+                    <p>UCI Summer Session<br>
+                    <i>August 2015 - September 2015</i><br />
+                    <i>August 2016 - September 2016</i><br />
+                    <i>July 2017 - September 2017</i><br />
+                    <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing</span>
+                    <span class="badge badge-danger">FCPX</span><br />
+                    Filmed and edited video for Freshman Edge events, which was
+                    shared by UCI Summer Session and liked by the University of California, Irvine Facebook page.
+                    <br><a href="https://www.youtube.com/v/TgpxNqzkCRQ" target="_blank"
+                        class="badge badge-success">Watch!</a>
+                    </p>
+                </div>
+        </div>
+        <div class="carousel-item">
+            <img src="http://img.youtube.com/vi/4Icy67Gl1wo/0.jpg" alt="time"
+                style="width:100%;-webkit-filter: blur(5px);-moz-filter: blur(5px);
+                -o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);">
+                <div class="carousel-caption  ">
+                    <h3>"What Time Is It" - Time Manipulation Family Lip Dub</h3>
+                    <p>UCI Circle K<br>
+                    <i>May 21st, 2016</i><br />
+                    <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing</span> <span class="badge badge-danger">FCPX</span>
+                    <br>Filmed video in one take.<br>
+                    <a href="https://www.youtube.com/v/4Icy67Gl1wo" target="_blank"
+                        class="badge badge-success">Watch!</a>
+                    </p>
+                </div>
+        </div>
+        <div class="carousel-item">
+            <img src="http://img.youtube.com/vi/7H6-1m5SljU/0.jpg" alt="interact"
+                style="width:100%;-webkit-filter: blur(5px);-moz-filter: blur(5px);
+                -o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);">
+                <div class="carousel-caption  ">
+                    <h3>Interact Area 5 Legacy Night</h3>
+                    <p>Personal<br>
+                    <i>June 2015</i><br />
+                    <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing</span>
+                    <span class="badge badge-warning">Nero</span><br />
+                    Filmed and edited video for the Interact Area 5 Legacy Night.<br>
+                    <a href="https://www.youtube.com/v/7H6-1m5SljU" target="_blank"
+                        class="badge badge-success">Watch!</a>
+                    </p>
+                </div>
+        </div>
+        <a class="left carousel-control" href="#mediacontent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#mediacontent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+---
+
+<div class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                    <strong style="color:black">Workshops: Things I Taught</strong>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body" style="text-align:center">
+                                    <h5 class="card-title">Game Induction: Developing A Game</h5>
+                                    <h6 class="card-subtitle mb-2 text-mmuted">Game Development<br/>June 7th, 2017<br/>ICS</h6>
+                                    <span class="badge badge-success">Game Maker Language</span><br/>
+                                    <a href="http://www.ics.uci.edu/~thamaj/workshop/gamedev" target="_blank"><button type="button" class="btn btn-info btn-sm">View Workshop</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body" style="text-align:center">
+                                    <h5 class="card-title">Making Games in GameMaker: Studio</h5>
+                                    <h6 class="card-subtitle mb-2 text-mmuted">Game Development<br/>Nov 16th, 2016<br/>SSL</h6>
+                                    <span class="badge badge-success">Game Maker Language</span><br/>
+                                    <a href="http://www.ics.uci.edu/~thamaj/workshop/gms/" target="_blank"><button type="button" class="btn btn-info btn-sm">View Workshop</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body" style="text-align:center">
+                                    <h5 class="card-title">UCICKI Bigs HTML Workshop</h5>
+                                    <h6 class="card-subtitle mb-2 text-mmuted">Web Development<br/>May 19th, 2016<br/>SSL</h6>
+                                    <span class="badge badge-danger">HTML, CSS, Bootstrap 2</span><br/>
+                                    <a href="http://www.ics.uci.edu/~thamaj/workshop/ucickihtml/" target="_blank"><button type="button" class="btn btn-info btn-sm">View Workshop</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
