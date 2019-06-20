@@ -10,15 +10,14 @@ layout: home_landing
 Hello! My name is Arthur Tham, and I am a **first-year Master of Science (M.S.), Computer Science** graduate student at 
 the University of California, Irvine. 
 I am a game developer and sports enthusiast!
-I am pursuing my passions in game development and analysis alongside digital media marketing. 
+I am pursuing my passions in game development and analysis alongside digital media marketing.
 
-### Current Involvements
+### Involvements
 I am currently a member of the **Mental Health in Design lab**, but I spend most of the time developing things independently
 at hackathons and contributing to fellowship programs at my previous involvements in **Circle K International at UC Irvine (UCICKI)**.
 This summer, I am acting as captain of an experimental basketball team focused strictly on having fun over winning to see
 how players react during games when the pressure to success is absent from the game of basketball.
 
-### Previous Involvements
 Previously, I graduated from the **University of California, Irvine with a B.S. degree in Computer Science** with a 
 specialization in information. 
 During my undergraduate career, I was an undergraduate research assistant in the **Health and Information Lab**. 
@@ -26,7 +25,6 @@ I spent four years with **UCI Summer Session** as a Freshman mentor and a events
 new sports programs such as the **Edge Basketball Classic**. This led to my leadership position as **Sports Coordinator
 with UCICKI**, acting as a liaison of the club's teams during competitions with
 other UCI clubs in UCI Intramural Sports.
-
 
 I also spent time with Anteater Television, UCI Summer Session, and UCICKI as a social media influencer, gaining experience
 in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch as both a videographer and reporter.
