@@ -20,7 +20,7 @@ layout: interest
                 <span class="badge badge-info">Editing (co-Editor)</span>
                 <span class="badge badge-danger">FCPX</span>
                 <br>Filmed and edited a short film for a university community service club.<br/>
-                <a href="https://www.youtube.com/v/WNNY8JMhoAg" target="_blank"
+                <a href="https://www.youtube.com/watch?v=WNNY8JMhoAg" target="_blank"
                     class="badge badge-success">Watch!</a><br/>
                 </p>
         </div>
@@ -59,7 +59,7 @@ layout: interest
                 <span class="badge badge-danger">FCPX</span><br />
                 Filmed and edited video for Freshman Edge events, which was
                 shared by UCI Summer Session and liked by the University of California, Irvine Facebook page.
-                <br><a href="https://www.youtube.com/v/TgpxNqzkCRQ" target="_blank"
+                <br><a href="https://www.youtube.com/watch?v=TgpxNqzkCRQ" target="_blank"
                     class="badge badge-success">Watch!</a>
                 </p>
             </div>
@@ -76,7 +76,7 @@ layout: interest
                 <i>May 21st, 2016</i><br />
                 <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing</span> <span class="badge badge-danger">FCPX</span>
                 <br>Filmed video in one take.<br>
-                <a href="https://www.youtube.com/v/4Icy67Gl1wo" target="_blank"
+                <a href="https://www.youtube.com/watch?v=4Icy67Gl1wo" target="_blank"
                     class="badge badge-success">Watch!</a>
                 </p>
         </div>
@@ -94,11 +94,11 @@ layout: interest
                 <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Editing</span>
                 <span class="badge badge-warning">Nero</span><br />
                 Filmed and edited video for the Interact Area 5 Legacy Night.<br>
-                <a href="https://www.youtube.com/v/7H6-1m5SljU" target="_blank"
+                <a href="https://www.youtube.com/watch?v=7H6-1m5SljU" target="_blank"
                     class="badge badge-success">Watch!</a>
                 </p>
         </div>
     </div>
-    <hr>
+    
      
 </div>

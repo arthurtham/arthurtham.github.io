@@ -1,6 +1,6 @@
 ---
 title: Research
-description: Here are I did in research!
+description: Here is what I did in research!
 published: true
 layout: interest
 ---
