@@ -11,7 +11,7 @@ layout: interest
             <img src="https://dannym08.github.io/Dungeon-Masters/images/header.png" style="width:100%;border-radius:3px" />
             <a class="btn btn-block" role="button" aria-pressed="true"
                                      href="https://dannym08.github.io/Dungeon-Masters/" 
-                                     style="background-color:black"
+                                     style="background-color:darkblue"
                                      target="_blank">Info</a>
         </div>
         <div class="col-md-7">
@@ -20,7 +20,9 @@ layout: interest
             <i>Course Project (CS175), June 2019</i>
             <p>Use the power of the PyTorch and your computer to solve dungeons
             without having to do anything!</p>
-            <span class="badge badge-info">Python</span><br/>
+            <span class="badge badge-info">Python</span>
+            <span class="badge badge-info">PyTorch</span>
+            <span class="badge badge-dark">Microsoft Malmo</span><br/>
         </div>
     </div>
     <hr>
@@ -29,7 +31,7 @@ layout: interest
             <img src="/img/carouselOctopet.png" style="width:100%;border-radius:3px" />
             <a class="btn btn-block" role="button" aria-pressed="true"
                                      href="https://devpost.com/software/octopet" 
-                                     style="background-color:black"
+                                     style="background-color:darkblue"
                                      target="_blank">Info</a>
         </div>
         <div class="col-md-7">
@@ -39,7 +41,11 @@ layout: interest
             <p>Feed your almost-eight-legged companion with the food you consume! 
             Its life expectancy depends on YOU and your healthy eating habits. 
             Feed it, hug it, love it purrever!</p>
-            <span class="badge badge-danger">Android Studio</span><br/>
+            <span class="badge badge-danger">Android Studio</span>
+            <span class="badge badge-warning">Java</span>
+            <span class="badge badge-danger">Google Cloud Platform</span>
+            <span class="badge badge-danger">Firebase</span>
+            <span class="badge badge-dark">Transposit</span><br/>
             <i class="fas fa-certificate"></i> I demoed!<br/>
             <i class="fas fa-medal"></i> Entertainment Vertical: Runner Ups
         </div>
@@ -48,10 +54,20 @@ layout: interest
     <div class="row">
         <div class="col-md-5">
             <img src="/img/carouselRemix.png" style="width:100%;border-radius:3px" />
-            <a class="btn btn-block" role="button" aria-pressed="true"
-                                     href="https://devpost.com/software/ucicki-remix" 
-                                     style="background-color:maroon"
-                                     target="_blank">Info</a>
+            <div class="row">
+                <div class="col-md-6" style="padding-right:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="http://nexus.ucicirclek.com/Remix/" 
+                                                         style="background-color:maroon"
+                                                         target="_blank">Play</a>
+                </div>
+                <div class="col-md-6" style="padding-left:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="https://devpost.com/software/ucicki-remix" 
+                                                         style="background-color:darkblue"
+                                                         target="_blank">Info</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-7">
             <h5 style="font-weight:bold">UCICKI Remix</h5>
@@ -67,10 +83,20 @@ layout: interest
     <div class="row">
         <div class="col-md-5">
             <img src="/img/carouselHackuwu.png" style="width:100%;border-radius:3px" />
-            <a class="btn btn-block" role="button" aria-pressed="true"
-                                     href="https://devpost.com/software/hackuwu" 
-                                     style="background-color:black"
-                                     target="_blank">Info</a>
+            <div class="row">
+                <div class="col-md-6" style="padding-right:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="http://www.hackuwu.tech/" 
+                                                         style="background-color:black"
+                                                         target="_blank">Play</a>
+                </div>
+                <div class="col-md-6" style="padding-left:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="https://devpost.com/software/hackuwu" 
+                                                         style="background-color:darkblue"
+                                                         target="_blank">Info</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-7">
             <h5 style="font-weight:bold">HackUWU</h5>
@@ -80,6 +106,10 @@ layout: interest
             Spread the joy of uwu and while dodging common anteater distractions!</p>
             <span class="badge badge-success">Game Maker Language</span>
             <span class="badge badge-danger">PHP</span><br/>
+            <span class="badge badge-dark">mySQL</span>
+            <span class="badge badge-dark">Transposit</span>
+            <span class="badge badge-danger">Google Cloud Platform</span>
+            <span class="badge badge-info">Sendgrid</span><br/>
             <i class="fas fa-certificate"></i> I demoed!<br/>
             <i class="fas fa-medal"></i> Best Joke Hack: Co-winner
         </div>
@@ -95,7 +125,7 @@ layout: interest
             </div>
             <div class="col-md-7">
                 <h5 style="font-weight:bold">The Adventure of Underwater Heroes</h5>
-                <i>Sole Programmer/Graphic Designer</i><br/>
+                <i>Programmer, Audio Engineer</i><br/>
                 <i>Course Project (ICS161), March 2018</i>
                 <p>Team up with a hero partner to take down the octopus kingdom!</p>
                 <span class="badge badge-dark">Unity</span><br/>
@@ -105,10 +135,20 @@ layout: interest
     <div class="row">
             <div class="col-md-5">
                 <img src="/img/carouselAngler.png" style="width:100%;border-radius:3px" />
-                <a class="btn btn-block" role="button" aria-pressed="true"
-                                         href="https://devpost.com/software/supersmashanglers" 
-                                         style="background-color:maroon"
-                                         target="_blank">Info</a>
+                <div class="row">
+                    <div class="col-md-6" style="padding-right:0px">
+                        <a class="btn btn-block" role="button" aria-pressed="true"
+                                                             href="https://www.ics.uci.edu/~thamaj/sandbox/ics161/ssa/" 
+                                                             style="background-color:maroon"
+                                                             target="_blank">Play</a>
+                    </div>
+                    <div class="col-md-6" style="padding-left:0px">
+                        <a class="btn btn-block" role="button" aria-pressed="true"
+                                                                 href="https://devpost.com/software/supersmashanglers" 
+                                                                 style="background-color:darkblue"
+                                                                 target="_blank">Info</a>
+                    </div>
+                </div>
             </div>
             <div class="col-md-7">
                 <h5 style="font-weight:bold">Super Smash Anglers</h5>
@@ -124,10 +164,20 @@ layout: interest
     <div class="row">
         <div class="col-md-5">
             <img src="/img/carouselPetey.png" style="width:100%;border-radius:3px" />
-            <a class="btn btn-block" role="button" aria-pressed="true"
-                         href="https://devpost.com/software/petey-jump" 
-                         style="background-color:green"
-                         target="_blank">Info</a>
+            <div class="row">
+                <div class="col-md-6" style="padding-right:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                 href="http://nexus.ucicirclek.com/PeteyJump/" 
+                                 style="background-color:green"
+                                 target="_blank">Play</a>
+                </div>
+                <div class="col-md-6" style="padding-left:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                              href="http://www.devpost.com/software/petey-jump/" 
+                              style="background-color:darkblue"
+                              target="_blank">Info</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-7">
             <h5 style="font-weight:bold">Petey Jump</h5>
@@ -144,10 +194,20 @@ layout: interest
     <div class="row">
         <div class="col-md-5">
             <img src="/img/carouselInduction.png" style="width:100%;border-radius:3px" />
-            <a class="btn btn-block" role="button" aria-pressed="true"
-                                     href="https://devpost.com/software/induction-night" 
-                                     style="background-color:darkred"
-                                     target="_blank">Info</a>
+            <div class="row">
+                <div class="col-md-6" style="padding-right:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="http://nexus.ucicirclek.com/IN/" 
+                                                         style="background-color:darkred"
+                                                         target="_blank">Play</a>
+                </div>
+                <div class="col-md-6" style="padding-left:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                              href="http://www.devpost.com/software/induction-night/" 
+                              style="background-color:darkblue"
+                              target="_blank">Info</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-7">
             <h5 style="font-weight:bold">Induction Night</h5>
@@ -157,6 +217,7 @@ layout: interest
             as you explore popular destinations around campus!</p>
             <span class="badge badge-success">Game Maker Language</span>
             <span class="badge badge-danger">PHP</span>
+            <span class="badge badge-dark">mySQL</span>
         </div>
     </div>
     <hr>
@@ -164,8 +225,8 @@ layout: interest
                 <div class="col-md-5">
                     <img src="/img/carouselEnlighten.png" style="width:100%;border-radius:3px" />
                     <a class="btn btn-block" role="button" aria-pressed="true"
-                                             href="https://devpost.com/software/https://devpost.com/software/enlighten-your-day" 
-                                             style="background-color:black"
+                                             href="https://devpost.com/software/enlighten-your-day" 
+                                             style="background-color:darkblue"
                                              target="_blank">Info</a>
                 </div>
                 <div class="col-md-7">
@@ -174,6 +235,7 @@ layout: interest
                     <i>HackUCI 2017, January 2017</i>
                     <p>Enlighten Your Day with a collection of inspirational quotes
                      from ten distinct categories.</p>
+                     <span class="badge badge-warning">HTML</span>
                     <span class="badge badge-warning">JS</span>
                 </div>
             </div>
@@ -181,10 +243,20 @@ layout: interest
     <div class="row">
         <div class="col-md-5">
             <img src="/img/carouselMillionaire.png" style="width:100%;border-radius:3px" />
-            <a class="btn btn-block" role="button" aria-pressed="true"
-                                     href="https://devpost.com/software/millionaire-uci-circle-k-edition" 
-                                     style="background-color:black"
-                                     target="_blank">Info</a>
+            <div class="row">
+                <div class="col-md-6" style="padding-right:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                                                         href="http://nexus.ucicirclek.com/Millionaire/" 
+                                                         style="background-color:black"
+                                                         target="_blank">Play</a>
+                </div>
+                <div class="col-md-6" style="padding-left:0px">
+                    <a class="btn btn-block" role="button" aria-pressed="true"
+                              href="http://www.devpost.com/software/millionaire-uci-circle-k-edition/" 
+                              style="background-color:darkblue"
+                              target="_blank">Info</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-7">
             <h5 style="font-weight:bold">Millionaire: UCI Circle K Edition</h5>
@@ -194,6 +266,7 @@ layout: interest
             Just answer 15 questions about Circle K!</p>
             <span class="badge badge-success">Game Maker Language</span>
             <span class="badge badge-danger">PHP</span>
+            <span class="badge badge-dark">mySQL</span>
         </div>
     </div>
     <hr>

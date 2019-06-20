@@ -1,6 +1,6 @@
 ---
 title: Workshops
-description: My Presentations!
+description: Here are some workshops I presented in!
 published: true
 layout: interest
 ---
