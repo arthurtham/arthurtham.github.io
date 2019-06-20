@@ -44,12 +44,12 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
     <center>
         <div class="row">
             <div class="col-md-4">
-                <h1>Projects</h1>
+                <h1>Games/Stuff</h1>
                 <img src="/img/previewProject.png" style="height:130px;"><br>
                 <a href="/project">Click here to view!</a>
             </div>
             <div class="col-md-4">
-                <h1>Media</h1>
+                <h1>Videos</h1>
                 <img src="/img/previewMedia.png" style="height:130px;"><br>
                 <a href="/media">Click here to view!</a>
             </div>

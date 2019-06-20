@@ -49,7 +49,7 @@ Circle K's involvement in Intramural Sports so great.
 
 # Edge Basketball Classic
 
-![alt text](/img/sportsEBC.JPG "EBC")
+![alt text](/img/sportsEBC.jpg "EBC")
 
 With the help of the American Campus Communities and UCI Summer Session, I founded
 and ran the Edge Basketball Classic for two years. The Edge Basketball Classic was
@@ -61,6 +61,8 @@ such as Raising Cane's, Luna Grill, and The Hill Bookstore at UCI.
 The Edge Basketball Classic also facilitated a dedicated referee/scores-keeper cohort.
 Participants in the cohort and the players themselves eventually joined UCI 
  Intramural Sports leagues as a result of playing in this league.
+ 
+<a href="http://bit.ly/uciebc18" target="_blank">Learn more</a>
 
 # Player Statistics
 Below are my career statistics on teams that I've played on:
