@@ -17,12 +17,12 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Dungeon-Masters</h5>
             <i>Support Programmer, Website Publisher</i><br/>
-            <i>Course Project (CS175), June 2019</i>
+            <i>Course Project (CS175), June 2019</i><br/>
+            <span class="badge badge-info">Python</span>
+                        <span class="badge badge-info">PyTorch</span>
+                        <span class="badge badge-dark">Microsoft Malmo</span>
             <p>Use the power of the PyTorch and your computer to solve dungeons
             without having to do anything!</p>
-            <span class="badge badge-info">Python</span>
-            <span class="badge badge-info">PyTorch</span>
-            <span class="badge badge-dark">Microsoft Malmo</span><br/>
         </div>
     </div>
     <hr>
@@ -37,15 +37,15 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Octopet</h5>
             <i>Programmer</i><br/>
-            <i>HackSC 2019, April 2019</i>
+            <i>HackSC 2019, April 2019</i><br/>
+            <span class="badge badge-danger">Android Studio</span>
+                        <span class="badge badge-warning">Java</span>
+                        <span class="badge badge-danger">Google Cloud Platform</span>
+                        <span class="badge badge-danger">Firebase</span>
+                        <span class="badge badge-dark">Transposit</span>
             <p>Feed your almost-eight-legged companion with the food you consume! 
             Its life expectancy depends on YOU and your healthy eating habits. 
             Feed it, hug it, love it purrever!</p>
-            <span class="badge badge-danger">Android Studio</span>
-            <span class="badge badge-warning">Java</span>
-            <span class="badge badge-danger">Google Cloud Platform</span>
-            <span class="badge badge-danger">Firebase</span>
-            <span class="badge badge-dark">Transposit</span><br/>
             <i class="fas fa-certificate"></i> I demoed!<br/>
             <i class="fas fa-medal"></i> Entertainment Vertical: Runner Ups
         </div>
@@ -72,11 +72,11 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">UCICKI Remix</h5>
             <i>Sole Programmer/Graphic Designer</i><br/>
-            <i>UCI Circle K, March 2019</i>
+            <i>UCI Circle K, March 2019</i><br/>
+            <span class="badge badge-success">Game Maker Language</span>
+                        <span class="badge badge-danger">PHP</span>
             <p>The Biggest Crossover Game in UCICKI History!
                </p>
-            <span class="badge badge-success">Game Maker Language</span>
-            <span class="badge badge-danger">PHP</span>
         </div>
     </div>
     <hr>
@@ -101,15 +101,15 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">HackUWU</h5>
             <i>Sole Programmer/Graphic Designer</i><br/>
-            <i>HackUCI 2019, February 2019</i>
-            <p>450 Owos. 36 Ewes. Unlimited Uwus. 
-            Spread the joy of uwu and while dodging common anteater distractions!</p>
+            <i>HackUCI 2019, February 2019</i><br/>
             <span class="badge badge-success">Game Maker Language</span>
             <span class="badge badge-danger">PHP</span><br/>
             <span class="badge badge-dark">mySQL</span>
             <span class="badge badge-dark">Transposit</span>
             <span class="badge badge-danger">Google Cloud Platform</span>
-            <span class="badge badge-info">Sendgrid</span><br/>
+            <span class="badge badge-info">Sendgrid</span>
+            <p>450 Owos. 36 Ewes. Unlimited Uwus. 
+                        Spread the joy of uwu and while dodging common anteater distractions!</p>
             <i class="fas fa-certificate"></i> I demoed!<br/>
             <i class="fas fa-medal"></i> Best Joke Hack: Co-winner
         </div>
@@ -126,9 +126,9 @@ layout: interest
             <div class="col-md-7">
                 <h5 style="font-weight:bold">The Adventure of Underwater Heroes</h5>
                 <i>Programmer, Audio Engineer</i><br/>
-                <i>Course Project (ICS161), March 2018</i>
+                <i>Course Project (ICS161), March 2018</i><br/>
+                <span class="badge badge-dark">Unity</span>
                 <p>Team up with a hero partner to take down the octopus kingdom!</p>
-                <span class="badge badge-dark">Unity</span><br/>
             </div>
         </div>
     <hr>
@@ -153,10 +153,10 @@ layout: interest
             <div class="col-md-7">
                 <h5 style="font-weight:bold">Super Smash Anglers</h5>
                 <i>Sole Programmer/Graphic Designer</i><br/>
-                <i>HackUCI 2018, February 2018</i>
+                <i>HackUCI 2018, February 2018</i><br/>
+                <span class="badge badge-dark">Unity</span>
                 <p>Will you light up the world like nobody else? 
                 Or will you flop to your doom like these poor Anglers? DINGDINGDING</p>
-                <span class="badge badge-dark">Unity</span><br/>
                 <i class="fas fa-certificate"></i> I demoed!<br/>
             </div>
         </div>
@@ -182,11 +182,11 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Petey Jump</h5>
             <i>Lead Programmer</i><br/>
-            <i>UCI Circle K, November 2017</i>
+            <i>UCI Circle K, November 2017</i><br/>
+            <span class="badge badge-success">Game Maker Language</span>
+                        <span class="badge badge-danger">PHP</span>
             <p>In a world full of Peteys, who will train them all? 
             It's up to you to mentor the Peteys and win the Spirit award at DCON!</p>
-            <span class="badge badge-success">Game Maker Language</span>
-            <span class="badge badge-danger">PHP</span>
             <br/>
         </div>
     </div>
@@ -212,12 +212,12 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Induction Night</h5>
             <i>Director, Lead Programmer</i><br/>
-            <i>UCI Circle K, March 2017</i>
+            <i>UCI Circle K, March 2017</i><br/>
+            <span class="badge badge-success">Game Maker Language</span>
+                        <span class="badge badge-danger">PHP</span>
+                        <span class="badge badge-dark">mySQL</span>
             <p>Where's my family? Experience Induction Night and life as a UCI Circle K member 
             as you explore popular destinations around campus!</p>
-            <span class="badge badge-success">Game Maker Language</span>
-            <span class="badge badge-danger">PHP</span>
-            <span class="badge badge-dark">mySQL</span>
         </div>
     </div>
     <hr>
@@ -232,11 +232,11 @@ layout: interest
                 <div class="col-md-7">
                     <h5 style="font-weight:bold">Enlighten Your Day</h5>
                     <i>Programmer</i><br/>
-                    <i>HackUCI 2017, January 2017</i>
+                    <i>HackUCI 2017, January 2017</i><br/>
+                    <span class="badge badge-warning">HTML</span>
+                                        <span class="badge badge-warning">JS</span>
                     <p>Enlighten Your Day with a collection of inspirational quotes
                      from ten distinct categories.</p>
-                     <span class="badge badge-warning">HTML</span>
-                    <span class="badge badge-warning">JS</span>
                 </div>
             </div>
     <hr>
@@ -261,12 +261,12 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Millionaire: UCI Circle K Edition</h5>
             <i>Director, Lead Programmer, Graphic Animator</i><br/>
-            <i>UCI Circle K, October 2016</i>
+            <i>UCI Circle K, October 2016</i><br/>
+            <span class="badge badge-success">Game Maker Language</span>
+                        <span class="badge badge-danger">PHP</span>
+                        <span class="badge badge-dark">mySQL</span>
             <p>Do you have what it takes to win 1 Million Zot Bucks? 
             Just answer 15 questions about Circle K!</p>
-            <span class="badge badge-success">Game Maker Language</span>
-            <span class="badge badge-danger">PHP</span>
-            <span class="badge badge-dark">mySQL</span>
         </div>
     </div>
     <hr>
@@ -277,9 +277,9 @@ layout: interest
         <div class="col-md-7">
             <h5 style="font-weight:bold">Othello</h5>
             <i>Programmer</i><br/>
-            <i>Class Project (ICS 32), March 2016</i>
-            <p>Make Boo proud by flipping more pieces than him in Othello!</p>
+            <i>Class Project (ICS 32), March 2016</i><br/>
             <span class="badge badge-info">Python</span>
+            <p>Make Boo proud by flipping more pieces than him in Othello!</p>
         </div>
     </div>
     

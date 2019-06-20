@@ -31,28 +31,40 @@ other UCI clubs in UCI Intramural Sports.
 I also spent time with Anteater Television, UCI Summer Session, and UCICKI as a social media influencer, gaining experience
 in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch as both a videographer and reporter.
 
+
+---
+
+<center><h1>Skills</h1></center>
+
+{% include skills.html %}
+
 ---
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <h1>Projects</h1>
-            <a href="/project" class="btn btn-large btn-success" style="background-color:green">Click here to view!</a>
+    <center>
+        <div class="row">
+            <div class="col-md-4">
+                <h1>Projects</h1>
+                <img src="/img/previewProject.png" style="height:130px;"><br>
+                <a href="/project">Click here to view!</a>
+            </div>
+            <div class="col-md-4">
+                <h1>Media</h1>
+                <img src="/img/previewMedia.png" style="height:130px;"><br>
+                <a href="/media">Click here to view!</a>
+            </div>
+            <div class="col-md-4">
+                <h1>Workshops</h1>
+                <img src="/img/previewWorkshop.png" style="height:130px;"><br>
+                <a href="/workshop">Click here to view!</a>
+            </div>
         </div>
-        <div class="col-md-4">
-            <h1>Media</h1>
-            <a href="/media" class="btn btn-large btn-success" style="background-color:green">Click here to view!</a>
-        </div>
-        <div class="col-md-4">
-            <h1>Workshops</h1>
-            <a href="/workshop" class="btn btn-large btn-success" style="background-color:green">Click here to view!</a>
-        </div>
-    </div>
+    </center>
 </div>
 
 ---
 
-# Awards
+<center><h1>Awards</h1></center>
 
 <div class="container">
     <div class="row">
@@ -88,82 +100,5 @@ in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch 
     </div>
 </div>
 
-
----
-# Skills
-
-<div class="page-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <strong style="color:black">Computer Skills</strong>
-                        <h6>High-level Language</h6>
-                        <table>
-                            <tr><center>
-                                <td width="40%">
-                                    <span class="badge badge-success" style="float:left;width:100%"><i class="fas fa-star"></i> Game Maker Language</span><br/>
-                                    <span class="badge badge-info" style="float:left;width:100%"><i class="fas fa-star"></i> Python 2.7/3.5</span><br/>
-                                    <span class="badge badge-warning" style="float:left;width:100%">C++11</span><br/>
-                                    <span class="badge badge-warning" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> Java</span><br/>
-                                    <span class="badge badge-dark" style="float:left;width:100%">Unity</span><br/>
-                                </td>
-                            </center></tr>
-                        </table>
-                        <h6>Web Development</h6>
-                        <table>
-                            <tr><center>
-                                <td width="40%">
-                                    <span class="badge badge-warning" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> HTML</span><br/>
-                                    <span class="badge badge-warning" style="float:left;width:100%">Javascript</span><br/>
-                                    <span class="badge badge-danger" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> PHP</span><br/>
-                                    <span class="badge badge-danger" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> SQL</span><br/>
-                                </td>
-                            </center></tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <strong style="color:black">Media Skills</strong>                                        
-                            <h6>Editing Software</h6>
-                            <table>
-                                <tr><center>
-                                    <td width="40%">
-                                        <span class="badge badge-danger" style="float:left;width:100%"><i class="fas fa-star"></i> Final Cut Pro X</span><br/>
-                                        <span class="badge badge-info" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> Adobe Photoshop</span><br/>
-                                        <span class="badge badge-warning" style="float:left;width:100%">Nero Video</span><br/>
-                                    <span class="badge badge-info" style="float:left;width:100%">Windows Movie Maker</span><br/>
-                                    </td>
-                                </center></tr>
-                            </table>
-                            <h6>Social Media Platforms</h6>
-                            <table>
-                                <tr><center>
-                                    <td width="40%">
-                                        <span class="badge badge-danger" style="float:left;width:100%">YouTube</span><br/>
-                                        <span class="badge badge-primary" style="float:left;width:100%">Twitch</span><br/>
-                                        <span class="badge badge-info" style="float:left;width:100%"><i class="fas fa-star-half-alt"></i> Facebook (Pages/Live)</span><br/>
-                                        <span class="badge badge-warning" style="float:left;width:100%"><i class="fas fa-star"></i> Snapchat (Reporter)</span><br/>
-                                        <span class="badge badge-warning" style="float:left;width:100%"><i class="fas fa-star"></i> Snapchat (Videographer)</span><br/>
-                                    </td>
-                                </center></tr>
-                            </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br/>
-    <small>
-        <i class="fas fa-star"></i> Proficient | <i class="fas fa-star-half-alt"></i> Familiar
-    </small>
-    
-</div>
-
----
 
 

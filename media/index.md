@@ -5,6 +5,7 @@ published: true
 layout: interest
 ---
 
+
 <div class="container">
     <div class="row">
         <div class="col-md-5">
@@ -22,6 +23,24 @@ layout: interest
                 <a href="https://www.youtube.com/v/WNNY8JMhoAg" target="_blank"
                     class="badge badge-success">Watch!</a><br/>
                 </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-5">
+            <img src="/img/lantern.png/" alt="ATV"
+                                        style="width:100%">       
+        </div>
+        <div class="col-md-7">
+             <h5 style="font-weight:bold">Snapchat Reporter</h5>
+                <p>Anteater Television<br>
+            <i>October 2015 - June 2016</i><br />
+            <span class="badge badge-danger">Videography</span> <span class="badge badge-info">Reporting</span>
+            <br />
+            Reporter and videographer on the Snapchat media platform for Anteater Television.
+            <br><a href="https://www.facebook.com/watch/?v=1055039714516342" target="_blank"
+                class="badge badge-success">Watch!</a>
+            </p>
         </div>
     </div>
     <hr>
