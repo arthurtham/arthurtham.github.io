@@ -1,0 +1,119 @@
+---
+title: About
+description: Here's me!
+published: true
+layout: interest
+---
+
+<p>Note: disabled tabs coming soon!</p>
+
+<!-- Nav pills -->
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#award">Awards</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#resume">Experiences</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#skill">Skills</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#">|</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#resume">Resume</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" data-toggle="tab" href="#cv">CV</a>
+    </li>
+</ul>
+<hr>
+<br>
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane active" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>About Arthur</h1>
+                    <p>Hello! My name is Arthur Tham, and I am a <b>first-year Master of Science (M.S.), Computer Science</b> graduate student at
+                        the University of California, Irvine.
+                        I am a game developer and sports enthusiast!
+                        I am pursuing my passions in game development and analysis alongside digital media marketing. </p>
+
+                    <h3>Involvements</h3>
+                    <p>I am currently a member of the <b>Mental Health in Design lab</b>, but I spend most of the time developing things independently
+                        at hackathons and contributing to fellowship programs at my previous involvements in <b>Circle K International at UC Irvine (UCICKI)</b>.
+                        This summer, I am acting as captain of an experimental basketball team focused strictly on having fun over winning to see
+                        how players react during games when the pressure to success is absent from the game of basketball.</p>
+
+                    <p>Previously, I graduated from the <b>University of California, Irvine with a B.S. degree in Computer Science</b> with a
+                        specialization in information.
+                        During my undergraduate career, I was an undergraduate research assistant in the <b>Health and Information Lab</b>.
+                        I spent four years with <b>UCI Summer Session</b> as a Freshman mentor and a events/marketing assistant, developing
+                        new sports programs such as the <b>Edge Basketball Classic</b>. This led to my leadership position as <b>Sports Coordinator
+                        with UCICKI</b>, acting as a liaison of the club's teams during competitions with
+                        other UCI clubs in UCI Intramural Sports.</p>
+
+                    <p>I also spent time with Anteater Television, UCI Summer Session, and UCICKI as a social media influencer, gaining experience
+                        in both Facebook Live and Snapchat reporting and hosting live-streams on Twitch as both a videographer and reporter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="skill">
+        {% include skills.html %}
+    </div>
+    <div class="tab-pane fade" id="award">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/img/awardHackuwu.png" width:200px /><br/>
+                    <b>Best Joke Hack</b><br/>
+                    <i>HackUWU</i><br/>
+                    <small>HackUCI 2019</small>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/awardOctopet.png" width:200px /><br />
+                    <b>Entertainment Runner Up</b><br/>
+                    <i>Octopet</i><br/>
+                    <small>HackSC 2019</small>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/awardUROP.png" width:200px /><br />
+                    <b>Poster Presenter</b><br/>
+                    <i>A Content Analysis of Popular Diet, Fitness, and Weight Self-Tracking Mobile Apps on Google Play</i><br/>
+                    <small>UCI UROP Symposium</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><b>Best Club Website</b>: <i>2016-17 UCI</i>, Circle K International at UC Irvine </li>
+                        <li><b>Membership Recognition Program</b>: <i>Silver (1), Bronze (2)</i>, Circle K International at UC Irvine </li>
+                        <li><b>Dean's Honor List</b>: <i>10 times</i>, UC Irvine </li>
+                        <li><b>ICS Honors Program</b>: <i>Completed</i>, UC Irvine </li>
+                        <li><b>Talent Runner-up</b>: <i>Millionaire, Game Show Host</i>, Middle Earth Performing Artists In Residence</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tab-pane fade" id="resume">
+        <p><a href="/docs/Arthur_Tham_Resume.pdf">Click here to download this document...</a></p>
+        <object width="100%" height="700" type="application/pdf" data="/docs/Arthur_Tham_Resume.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
+            <p>Error rendering PDF...</p>
+        </object>
+    </div>
+    <div class="tab-pane fade" id="cv">
+        <p><a href="/docs/Arthur_Tham_CV.pdf">Click here to download this document...</a></p>
+        <object width="100%" height="700" type="application/pdf" data="/docs/Arthur_Tham_CV.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
+            <p>Error rendering PDF...</p>
+        </object>
+    </div>
+</div>
