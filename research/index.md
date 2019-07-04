@@ -22,3 +22,6 @@ You can learn more about the labs that I am in by clicking on the "research" but
 in the navigation bar!
 
 ![alt-text](/img/researchApps.jpeg "research")
+
+![alt-text](/img/researchMid.png "mid")
+![alt-text](/img/researchDBH.png "dbh")
