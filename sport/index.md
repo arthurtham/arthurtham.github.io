@@ -40,7 +40,7 @@ show what it is like to be leaders in service to their personal health.
 ![alt text](/img/sportsIMCapts.JPG "Captains")
 
 
-I was also fortunate enough to be the Intramural Sports Coordinator for my service club, 
+I was fortunate enough to be the Intramural Sports Coordinator for my service club, 
 UCI Circle K. With the philosophy I put on my Turtles, I encourage members to go try new sports
 while embodying the three tenets: service, leadership, and fellowship. My cohort of captains
 and I have won three championships together, and it's all thanks to them that they make
@@ -65,15 +65,40 @@ Participants in the cohort and the players themselves eventually joined UCI
  
 <a href="http://bit.ly/uciebc18" target="_blank">Learn more</a>
 
+# Referee
+![alt text](/img/sportsRef.jpg "Referee")
+
+I first started refereeing games in football and basketball during my senior year of 
+high school for its intramural leagues. Since then, I had refereed all the games in the inaugural Edge
+Basketball Classic games in 2017 and a subset of games in the second iteration in 2018, 
+before joining UCI Campus Recreation as an official referee in 2019. In this position I am blessed
+to be able to referee games for a variety of clubs, from Tomo no Kai to Chinese Association.
+I'm slated to continue my role in this capacity in 2020.
+
+<a href="http://bit.ly/uciebc18" target="_blank">Learn more (Edge Basketball Classic)</a>
+<a href="https://www.campusrec.uci.edu/im/sports.asp" target="_blank">Learn more (UCI Campus Recreation)</a>
+
 # Player Statistics
 Below are my career statistics on teams that I've played on:
+
+#### Graduate Career Statistics
+UCI Intramural Sports League. 
+
+| Statistic | Value |
+| ---|:-------------:|
+| GP | 6 |
+| W  | 1 |
+| L  | 5 |
+| WPCT | 17% |
+| Total Teams | 1 |
+| - Captain | 1 |
 
 #### Undergraduate Career Statistics
 UCI Intramural Sports League. 
 
 | Statistic | Value |
 | ---|:-------------:|
-| GP | 93 |
+| GP | 93 (4 pre-IML documented) |
 | W  | 42 |
 | L  | 51 |
 | WPCT | 45% |
