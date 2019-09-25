@@ -76,6 +76,7 @@ to be able to referee games for a variety of clubs, from Tomo no Kai to Chinese 
 I'm slated to continue my role in this capacity in 2020.
 
 <a href="http://bit.ly/uciebc18" target="_blank">Learn more (Edge Basketball Classic)</a>
+
 <a href="https://www.campusrec.uci.edu/im/sports.asp" target="_blank">Learn more (UCI Campus Recreation)</a>
 
 # Player Statistics
