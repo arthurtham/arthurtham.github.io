@@ -87,11 +87,11 @@ UCI Intramural Sports League.
 
 | Statistic | Value |
 | ---|:-------------:|
-| GP | 6 |
-| W  | 1 |
-| L  | 5 |
-| WPCT | 17% |
-| Total Teams | 1 |
+| GP | 13 |
+| W  | 2 |
+| L  | 11 |
+| WPCT | 15% |
+| Total Teams | 3 |
 | - Captain | 1 |
 
 #### Undergraduate Career Statistics
