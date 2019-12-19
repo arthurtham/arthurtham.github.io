@@ -21,6 +21,13 @@ I am also a member of Team Apps in the Mental Health in Design lab.
 You can learn more about the labs that I am in by clicking on the "research" button
 in the navigation bar!
 
+Check out this published paper!
+
+> Tham, A, Victory, S, Kim, LS, Chen, Y, Zheng, K, Eikey, EV. In Press. 
+A Content Analysis of Popular Diet, Fitness, and Weight Self-Tracking Mobile
+ Apps on Google Play. In *International Conference on Information (iConference). 
+ Springer.* Borås, Sweden. March 23-26, 2020.
+
 ![alt-text](/img/researchApps.jpeg "research")
 
 ![alt-text](/img/researchMid.png "mid")

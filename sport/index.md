@@ -75,6 +75,9 @@ before joining UCI Campus Recreation as an official referee in 2019. In this pos
 to be able to referee games for a variety of clubs, from Tomo no Kai to Chinese Association.
 I'm slated to continue my role in this capacity in 2020.
 
+I have refereed over 50 basketball and softball games in my current role as referee/umpire 
+at UCI Campus Recreation.
+
 <a href="http://bit.ly/uciebc18" target="_blank">Learn more (Edge Basketball Classic)</a>
 
 <a href="https://www.campusrec.uci.edu/im/sports.asp" target="_blank">Learn more (UCI Campus Recreation)</a>
