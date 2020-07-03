@@ -31,6 +31,29 @@ projects:
         <br/><br/> Previously known as <a href="http://nexus.ucicirclek.com/Millionaire/" target="_blank">
         Millionaire: UCI Circle K Edition in 2016</a>'
         videourl: 3o-cTZfk9ss
+    casas:
+        id : "casas"
+        thumbnail : "Casas"
+        title: "The Mystery of Dos Casas"
+        shorttitle: "Mystery of Dos Casas"
+        date: June 2020
+        playurl: https://www.ics.uci.edu/~thamaj/sandbox/gruposiete
+        infourl: https://www.youtube.com/watch?v=dpqbpFoq3tQ
+        description :  "It’s the late 1800’s and land grabbing in Mexico is at an all-time high. As a top governmental official,
+        it is your job to relegate the land of two Mexican elites, the Fernandez family and the Gonzalez family. Just when you think you’ve
+        closed the deal, a mysterious disaster strikes! Now you’ve got the hardest, bloodiest case you’ve ever had on your hands.
+        Can you fill in the blanks and put the land deed in its rightful place?"
+        tags:
+            - Python
+            - Renpy
+        hackathon: false
+        demoed: false
+        awards:
+        team: Andi Yu, Andrew Zhao, Benjamin Tolan, Cole Medley, Rolando Hernandez, Samuel Bordet.
+        context: Class project (ICS 166)
+        role: Project Manager and Programmer
+        roledescription: "Managed the production timeline of the game development. Created the level: Jorge Gonzalez."
+        videourl: dpqbpFoq3tQ
     owols:
         id : "owols"
         thumbnail : "owols"
@@ -103,11 +126,12 @@ projects:
         date: July 2019
         playurl: https://browntulstar.itch.io/guzman-hr-derby/
         infourl: https://browntulstar.itch.io/guzman-hr-derby/
-        description : Play as your favorite Composite K players* in Guzman Home Run Derby!
+        description : Play as your favorite Composite K players in Guzman Home Run Derby!
         tags:
             - "Unity"
-        hackathon: true
-        demoed: true
+        hackathon: false
+        gamejam: true
+        demoed: false
         awards:
         team: Solo
         context: My First Game Jam
@@ -234,7 +258,7 @@ projects:
         hackathon: true
         demoed: true
         awards:
-            - Best Joke Hack: Co-winner
+            - "Best Joke Hack: Co-winner"
         team: Solo
         context: HackUCI 2019
         role: Sole Programmer/Graphic Designer
@@ -275,11 +299,12 @@ projects:
         infourl:
         description : "Search for all of your favorite movies on Fabflix!"
         tags:
+            - "AWS"
+            - "mySQL"
+            - "Google Cloud Platform"
             - "HTML"
             - "JS"
             - "Java"
-            - "AWS"
-            - "Google Cloud Platform"
         hackathon: false
         demoed: false
         awards:
@@ -392,6 +417,7 @@ helped code the backend system that saves user settings depending on the quote t
         description : "Make Boo proud by flipping more pieces than him in Othello!"
         tags:
             - "Python"
+            - PyGame
         hackathon: false
         demoed: false
         awards:
@@ -403,7 +429,9 @@ helped code the backend system that saves user settings depending on the quote t
 ---
 
 <div class="container" style="padding:10px">
-    <p><small><i class="fab fa-hackerrank"></i> Hackathon Project | <i class="fas fa-medal"></i> Award-winning.<br/>
+    <p><small><i class="fab fa-hackerrank"></i> Hackathon Project
+        | <i class="fas fa-gamepad"></i> Game Jam Project
+        | <i class="fas fa-medal"></i> Award-winning Project. <br/>
         Sorted from newest to oldest.</p>
 
     {% for projectItem in page.projects %}
@@ -415,7 +443,13 @@ helped code the backend system that saves user settings depending on the quote t
                 <div class="col-md-4" style="color:white">
                     <a class="btn btn-dark" data-toggle="modal"
                             data-target="#{{ info.id }}"
-                            style="background-color:midnightblue;width:100%">
+                            style="background-color:
+                            {% for award in info.awards limit:1 %}
+                            darkgreen
+                            {% else %}
+                            midnightblue
+                            {% endfor %}
+                            ;width:100%">
                         <img src="/img/carousel{{ info.thumbnail }}.png"
                              style="height:150px !important;object-fit:cover"/>
                         <br/>
@@ -425,6 +459,9 @@ helped code the backend system that saves user settings depending on the quote t
                         <br/>
                         {% if info.hackathon == true %}
                         <small><i class="fab fa-hackerrank"></i></small>
+                        {% endif %}
+                        {% if info.gamejam == true %}
+                        <small><i class="fas fa-gamepad"></i></small>
                         {% endif %}
                         {% for award in info.awards %}
                         <small><i class="fas fa-medal"></i></small>
@@ -475,6 +512,8 @@ helped code the backend system that saves user settings depending on the quote t
                                 badge-primary
                             {% when 'Unity' %}
                                 badge-dark
+                            {% else %}
+                                badge-dark
                             {% endcase %}
                             ">{{ tag }}</span>
                         {% endfor %}
@@ -508,7 +547,7 @@ helped code the backend system that saves user settings depending on the quote t
                         <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/{{ info.videourl }}"
                                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         {% endif %}
-                        <h4><strong>{{ info.title }}</strong></h4>
+                        <center><h4 style="margin: 0px"><strong>{{ info.title }}</strong></h4>
                         <em>{{ info.role }}</em><br />
                         <em>{{ info.context }}, {{ info.date }}</em><br />
                         <div>{% for tag in info.tags %}
@@ -556,14 +595,28 @@ helped code the backend system that saves user settings depending on the quote t
                                 badge-primary
                             {% when 'Unity' %}
                                 badge-dark
+                            {% else %}
+                                badge-dark
                             {% endcase %}
                             ">{{ tag }}</span>
                         {% endfor %}
                         </div>
                         <br />
+                        {% if info.playurl != null %}
+                        <button class="btn btn-light" style="background-color:dodgerblue">
+                            <a href="{{ info.playurl }}" target="_blank" style="color:white">Play</a></button>
+                        {% endif %}
+                        {% if info.infourl != null %}
+                        <button class="btn btn-light" style="background-color:lightgray">
+                            <a href="{{ info.infourl }}" target="_blank">Info</a></button>
+                        {% endif %}
+                        </center>
                         <blockquote>{{ info.description }}</blockquote>
                         {% if info.hackathon == true %}
-                        <i class="fab fa-hackerrank"></i> Hackathon Submission<br/>
+                        <i class="fab fa-hackerrank"></i> Hackathon Project<br/>
+                        {% endif %}
+                        {% if info.gamejam == true %}
+                        <i class="fas fa-gamepad"></i> Game Jam Project<br/>
                         {% endif %}
                         {% if info.demoed == true %}
                         <i class="fas fa-certificate"></i> I demoed!<br/>
@@ -572,17 +625,9 @@ helped code the backend system that saves user settings depending on the quote t
                         <i class="fas fa-medal"></i> {{ award }} <br/>
                         {% endfor %}
                         <small>
-                            Team: {{ info.team }}<br/>
-                            Role: {{ info.roledescription }}
-                        </small> <br/><br/>
-                        {% if info.playurl != null %}
-                        <button class="btn btn-light" style="background-color:lightblue">
-                            <a href="{{ info.playurl }}" target="_blank">Play</a></button>
-                        {% endif %}
-                        {% if info.infourl != null %}
-                        <button class="btn btn-light" style="background-color:lightgray">
-                            <a href="{{ info.infourl }}" target="_blank">Info</a></button>
-                        {% endif %}
+                            Teamed with: {{ info.team }}<br/>
+                            Contribution: {{ info.roledescription }}
+                        </small>
                     </div>
                 </div>
             </div>

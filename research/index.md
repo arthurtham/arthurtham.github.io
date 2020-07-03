@@ -20,3 +20,13 @@ in the navigation bar!
 
 ![alt-text](/img/researchMid.png "mid")
 ![alt-text](/img/researchDBH.png "dbh")
+
+# Projects
+- [Self-tracking Applications](/research/health/)
+- [Adverse Gameplay in League of Legends](/research/league/)
+
+
+# Lab Involvements
+- [ICS Honors Program](https://honors.ics.uci.edu/)
+- [HAI Lab](http://hai.ics.uci.edu/)
+- [MiD Lab](http://mentalhealthindesign.com/)
