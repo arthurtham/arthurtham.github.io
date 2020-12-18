@@ -4,26 +4,51 @@ published: true
 layout: home_landing
 ---
 
-<header class="page-header" style="background:#000000;text-align: left">
+<header class="page-header" style="background-image:linear-gradient(to top, darkblue, midnightblue);text-align: left">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-1 border border-success" style="padding:20px;border-radius:20px">
+        <div class="row offset-md-1 border border-success" style="padding:20px;border-radius:20px;background-image: linear-gradient(black,#1e1e1e)">
+            <div class="col-md-7" >
                 <h2>About Me</h2>
-                <ul>
-                    <li>I am a <strong>graduate student</strong> at UC Irvine pursuing a Master's degree in Computer Science!
-                    <li>I am interested in <strong>game development/design, interactive media, and digital media marketing.</strong>
-                    <li>I make a lot of <a href="/project">minigames</a> on the side to <strong>promote positivity and happiness!</strong>
-                    <li>I currently split time between an <strong>independent game developer</strong> and <strong>teaching assistant</strong>; but I will always be a <strong>student.</strong></li>
+                <ul style="line-height: 1.5em">
+                    <li>I am a pursuing a <strong>M.S. degree in Computer Science at UC Irvine</strong>, graduating in 2021!
+                    <li>I <u><a href="#games"><strong>make games</strong></a></u> and I used to <strong>market things</strong> on the side.
+                    <li>I used to be a <strong>live reporter</strong>, now spending time as a <strong>shoutcaster</strong> in my free time.</li>
+                    <li>I am looking for opportunities as a <strong>software engineer!</strong></li>
+                    <li>I love being a <strong>teaching assistant</strong> for classes on informatics topics!</li>
+                    <li>I'm a top-tier Mario Kart player <small>(DK-Wigger-AzureRoller don't @ me)</small></li>
+                    <li><u><a href="https://hackuwu.tech" target="_blank">HACK UWU OWO EWE</a></u></li>
                 </ul>
             </div>
+            <div class="col-md-5" style="padding:20px;border-radius:20px">
+                <img src="./img/arthur_summer.jpg" style="height:300px;width:100%;object-fit:cover;border-radius:20px">
+            </div>
         </div>
-        <br/>
+    </div>
+</header>
+<header class="page-header" style="background:#000000;text-align: left">
+    <div clas="container">
         <div class="row" style="display:flex;flex-direction: row">
             <div class="col-md-6" style="display:flex;">
                 <div class="border border-warning" style="padding:20px;border-radius:20px;width:100%">
                     <h2>Technical Skills</h2>
                     <h6><em> Experience in:</em></h6>
                     <table>
+                        <tr>
+                            <td class="skillicon">
+                                <i class="fab fa-python"></i>
+                            </td>
+                            <td class="skilldesc">
+                                Python 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="skillicon">
+                                <i class="fab fa-java"></i>
+                            </td>
+                            <td class="skilldesc">
+                                Java
+                            </td>
+                        </tr>
                         <tr>
                             <td class="skillicon">
                                 <img src="https://www.yoyogames.com/images/yoyo_logo_512.png" style="max-height:36px;" />
@@ -40,33 +65,9 @@ layout: home_landing
                                 Unity
                             </td>
                         </tr>
-                        <tr>
-                            <td class="skillicon">
-                                <i class="fab fa-python"></i>
-                            </td>
-                            <td class="skilldesc">
-                                Python 3
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="skillicon">
-                                <img src="https://www.renpy.org/static/index-logo.png" style="max-height:36px" /></a>
-                            </td>
-                            <td class="skilldesc">
-                                RenPy
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="skillicon">
-                                <i class="fab fa-java"></i>
-                            </td>
-                            <td class="skilldesc">
-                                Java
-                            </td>
-                        </tr>
                     </table>
                     <br/>
-                    <h6><em>With some back-end experience in:</em></h6>
+                    <h6><em>With back-end experience in:</em></h6>
                     <table>
                         <tr>
                             <td class="skillicon">
@@ -100,7 +101,7 @@ layout: home_landing
             <div class="col-md-6" style="display:flex;">
                 <div class="border border-danger" style="padding:20px;border-radius:20px;width:100%">
                     <h2>Media Skills</h2>
-                    <h6><em>Experience using office suites such as:</em></h6>
+                    <h6><em>Experience using apps like:</em></h6>
                     <h3><span class="badge badge-light">Google Apps Suite + CoLab</span></h3>
                     <h3><span class="badge badge-light">Office Suite</span></h3>
                     <h3><span class="badge badge-light">Git + GitHub </span></h3>
@@ -108,9 +109,9 @@ layout: home_landing
                     <br />
                     <h6><em>With broadcasting / production experience using:</em></h6>
                     <h3><span class="badge badge-warning">Snapchat</span></h3>
-                    <h3><span class="badge badge-primary">Facebook Live/Pages</span></h3>
-                    <h3><span class="badge badge-danger">YouTube</span></h3>
                     <h3><span class="badge" style="background-color:rebeccapurple">Twitch</span></h3>
+                    <h3><span class="badge badge-danger">YouTube</span></h3>
+                    <h3><span class="badge badge-primary">Facebook Live/Pages</span></h3>
                     <br />
                     <h6><em>While producing media in:</em></h6>
                     <h3><span class="badge badge-light">Final Cut Pro X</span></h3>
@@ -120,92 +121,58 @@ layout: home_landing
             </div>
         </div>
         <br/>
-        <div class="row">
-            <div class="col-md-6 offset-md-5 border border-success" style="padding:20px;border-radius:20px">
-                <h2>Fun Facts</h2>
-                <ul>
-                    <li>I like talking to people and learning about their life experiences!
-                    <li>Coffee is love, soda is life.</li>
-                    <li>I'm a top-tier Mario Kart player <small>(DK-Wigger-AzureRoller don't @ me)</small></li>
-                    <li><a href="https://hackuwu.tech" target="_blank">HAAAAAACK uwu owo ewe</a></li>
-                    <li>I referee basketball games and umpire slow-pitch softball games in Southern California. Yes- I get yelled at at lot.
-                    <li>In my younger life I also played competitive basketball. I coached intramural basketball teams in my undergraduate years.</li>
-                    <li>I love ramen and dumplings and I will eat them up like a Kirby.
-                </ul>
-            </div>
-        </div>
     </div>
 </header>
 
 
 
-<header class="page-header" style="background:black;text-align: left">
-    <div class="container border border-primary" style="padding:20px;border-radius:20px">
-        <center><h1>Awards</h1></center>
-        <div class="row">
-            <div class="col-md-4">
-                <center><img src="/img/awardHackuwu.png" class="border border-light" style="max-height:200px;max-width:100%;border-radius:20px;" /><br/>
-                <b>Best Joke Hack</b><br/>
-                <i>HackUWU</i><br/>
-                <small>HackUCI 2019</small></center>
-            </div>
-            <div class="col-md-4">
-                <center><img src="/img/awardOctopet.png" class="border border-light" style="max-height:200px;max-width:100%;border-radius:20px;" /><br />
-                <b>Entertainment Runner Up</b><br/>
-                <i>Octopet</i><br/>
-                <small>HackSC 2019</small></center>
-            </div>
-            <div class="col-md-4">
-                <center><img src="/img/awardPetr.png" class="border border-light" style="max-height:200px;max-width:100%;border-radius:20px;" /><br />
-                <b>Best Entertainment</b><br/>
-                <i>Petr Jump</i><br/>
-                <small>MLH Local Hack Day UCI 2019</small></center>
-            </div>
-        </div>
-        <br />
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <ul>
-                    <li><b>Best Club Website</b>: <i>2016-17 UCI</i>, Circle K International at UC Irvine </li>
-                    <li><b>Membership Recognition Program</b>: <i>Silver (1), Bronze (2)</i>, Circle K International at UC Irvine </li>
-                    <li><b>Dean's Honor List</b>: <i>10 times</i>, UC Irvine </li>
-                    <li><b>ICS Honors Program Completion</b>: <i>Member</i>, UC Irvine </li>
-                    <li><b>Poster Presenter</b>: <i>A Content Analysis of Popular Diet, Fitness, and Weight Self-Tracking Mobile Apps on Google Play</i>, UCIUROP Symposium, UC Irvine</li>
-                    <li><b>Talent Runner-up</b>: <i>Who Wants to be a Millionaire, Game Show Host</i>, Middle Earth Performing Artists In Residence</li>
-                    <li><b>Niles Rotary Club Scholarship</b>: <i>Winner</i>, Rotary International</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
-
-<header class="page-header" style="background:black;text-align: left">
+<!-- games start here -->
+<header id="games" class="page-header" style="background-image: url('/img/indexPeteyAldrich.png');background-size: cover;background-repeat: no-repeat;
+background-position: center;text-align: left">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 offset-md-3 border border-light" style="padding:20px;border-radius:20px">
-                <center><h1>My Programs</h1></center>
+            <div class="col-md-10 offset-md-1 border border-light" style="color:white;background-image:linear-gradient(darkgreen,#1e1e1e);padding:20px;border-radius:20px">
+            {% include games_spotlight.html %}
+                <br>
+                <center><a class="btn btn-dark" href="project">All Games</a></center>
+            </div>
+        </div>
+    </div>
+</header>
+
+<header class="page-header" style="background-image:linear-gradient(darkred, darkorchid);text-align: left">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 border border-light" style="color:white;background-image:linear-gradient(#400000,#1e1e1e);padding:20px;border-radius:20px">
+                <center><h1>Fun Side Projects</h1></center>
                 <div class="row">
                     <div class="col-md-6">
-                        <center><img src="/img/indexCTG.jpg" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
-                        <strong>
-                                <a href="https://sites.google.com/uci.edu/ctglv4dlc/" target="_blank">
-                            Change Thru Games
-                                </a>
-                        </strong>
-                        <br/>
-                        Director
+                        <center>
+                        <a style="color:white" href="https://sites.google.com/uci.edu/ctglv4dlc/" target="_blank">
+                        <img src="/img/indexCTG.jpg" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
+                            <strong>
+                                <u>
+                                    Change Thru Games
+                              </u>
+                            </strong>
+                            <br/>
+                        </a>
+                            Director
                         </center>
                     </div>
                     <div class="col-md-6">
                         <center>
-                        <img src="/img/indexEBC.png" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
-                        <strong>
-                            <a href="http://bit.ly/uciebc18">
-                    Edge Basketball Classic
+                            <a style="color:white" href="http://bit.ly/uciebc18">
+                            <img src="/img/indexEBC.png" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
+                            <strong>
+                                <u>
+                                    Edge Basketball Classic
+                                </u>
+                            </strong>
+                            <br/>
                             </a>
-                        </strong>
-                        <br/>
-                    Director, Referee
+                            Director, Referee
+
                         </center>
                     </div>
                 </div>
@@ -213,11 +180,11 @@ layout: home_landing
                 <div class="row">
                     <div class="col-md-6">
                         <center>
-                        <img src="/img/sportsIMTurtle.jpg" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
+                            <img src="/img/sportsIMTurtle.jpg" class="border border-light" style="max-height:120px;max-width:100%;border-radius:20px;"  /> <br/>
                             <strong>
-                            Turtle Trotters
-                        </strong>
-                        <br/>
+                                Turtle Trotters
+                            </strong>
+                            <br/>
                             Captain
                         </center>
                     </div>
@@ -237,80 +204,14 @@ layout: home_landing
     </div>
 </header>
 
-<!-- games start here -->
-<header class="page-header" style="background:lightblue;">
-    <div class="container">
-        <strong><h1 style="color:black">Games Spotlight</h1></strong>
-        <div class="row" style="display:flex;flex-direction: row">
-            <div class="col-md-4" style="background: #1e1e1e;border-radius:20px;padding:50px;display:flex;align-items: center; ">
-                <center>
-                    <button class="btn btn-dark">
-                    <a href="https://www.hackuwu.tech/"
-                       target="_blank"><img src="/img/indexuwu.png" style="max-width:300px;width:100%;object-fit: cover" /></a>
-                    </button>
-                </center>
-            </div>
-            <div class="col-md-4" style="background-image: url('/img/indexPeteyAldrich.png');background-size: cover;background-repeat: no-repeat; background-position: center;
-            border-radius:20px;padding:50px;display:flex;align-items: center; ">
-                <center>
-                    <button class="btn btn-dark">
-                        <a href="http://nexus.ucicirclek.com/PeteyJump/"
-                           target="_blank"><img src="/img/indexPetey.png" style="max-width:500px;width:100%;object-fit: cover" /></a>
-                    </button>
-                </center>
-            </div>
-            <div class="col-md-4" style="background: #400000;border-radius:20px;padding:50px;display:flex;align-items: center; ">
-                <center>
-                    <button class="btn btn-dark">
-                    <a href="http://nexus.ucicirclek.com/Remix/"
-                       target="_blank"><img src="/img/indexRemix.png" style="max-width:300px;width:100%;object-fit: cover" /></a>
-                    </button>
-                </center>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="page-header" style="background-image: url('/img/indexMillionaireBackground.png');background-repeat: no-repeat; background-position: center; background-size: cover">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <center>
-                    <iframe frameborder="0" src="https://itch.io/embed/683662?linkback=true&amp;dark=true"
-                            width="100%" height="167" style="max-width:800px"></iframe><br />
-                </center>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="page-header" style="background-image: url('/img/indexGuzmanBackground.png');background-repeat: no-repeat; background-position: center; background-size: cover">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <center>
-                    <iframe frameborder="0" src="https://itch.io/embed/449476?bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636"
-                            width="100%" height="167" style="max-width:800px"></iframe><br />
-                    <p>Created for My First Game Jam: Summer 2019</p><br/>
-                </center>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="page-header" style="background:black">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <center>
-                    <h1>More</h1>
                     <span style="font-size: 48px;">
-                        {% include social.html %}
-                        <br>
-                        <a class="btn btn-light" href="videos/media">Videos/Media</a>
                         <a class="btn btn-light" href="project">Games/Projects</a>
+                        <a class="btn btn-light" href="videos/media">Videos/Media</a>
                         <a class="btn btn-light" href="research">Research</a>
                     </span>
                 </center>

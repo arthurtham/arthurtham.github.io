@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+
+    {% include meta.html %}
+
+    <style>
+        h5 {
+            padding-top: 12px;
+            padding-bottom: -12px;
+            line-height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    {% for projectItem in page.projects %}
+    {% for info in projectItem limit: 1 offset: 1 %}
+    <header class="page-header" style="background-image:linear-gradient(darkred, darkorchid);text-align: left">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-6 offset-md-3" style="border-radius: 20px;background-color:black;padding:20px">
+                    {% if info.videourl == null %}
+                    <center><img src="/img/carousel{{ info.thumbnail }}.png" style="max-height:300px"
+                    /></center>
+                    {% else %}
+                    <iframe width="100%" height="300px" src="https://www.youtube-nocookie.com/embed/{{ info.videourl }}"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    {% endif %}
+                    <center><h1 style="margin: 0px"><strong>{{ info.title }}</strong></h1>
+                        <em>{{ info.role }}</em><br />
+                        <em>{{ info.context }}, {{ info.date }}</em><br />
+                        <div>{% for tag in info.tags %}
+                            <span class="badge
+                            {% case tag %}
+                            {% when 'GameMaker:Studio' %}
+                                badge-success
+                            {% when 'React Native' %}
+                                badge-danger
+                            {% when 'Expo' %}
+                                badge-light
+                            {% when 'Audacity' %}
+                                badge-danger
+                            {% when 'HTML' %}
+                               badge-warning
+                            {% when 'JS' %}
+                               badge-warning
+                            {% when 'Java' %}
+                               badge-warning
+                            {% when 'PHP' %}
+                               badge-danger
+                            {% when 'Android Studio' %}
+                               badge-danger
+                            {% when 'Google Cardboard' %}
+                               badge-danger
+                            {% when 'mySQL' %}
+                               badge-dark
+                            {% when 'Microsoft Malmo' %}
+                               badge-dark
+                            {% when 'Transposit' %}
+                               badge-dark
+                            {% when 'Twilio Sendgrid' %}
+                               badge-danger
+                            {% when 'Twilio API' %}
+                               badge-danger
+                            {% when 'Firebase' %}
+                               badge-danger
+                            {% when 'AWS' %}
+                               badge-warning
+                            {% when 'Google Cloud Platform' %}
+                               badge-danger
+                            {% when 'Python' %}
+                                badge-primary
+                            {% when 'PyTorch' %}
+                                badge-primary
+                            {% when 'Unity' %}
+                                badge-dark
+                            {% else %}
+                                badge-dark
+                            {% endcase %}
+                            ">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        <br />
+                        {% if info.playurl != null %}
+                        <button class="btn btn-light" style="background-color:dodgerblue">
+                            <a href="{{ info.playurl }}" target="_blank" style="color:white">Play</a></button>
+                        {% endif %}
+                        {% if info.infourl != null %}
+                        <button class="btn btn-light" style="background-color:lightgray">
+                            <a href="{{ info.infourl }}" target="_blank">Info</a></button>
+                        {% endif %}
+                    </center>
+                    <blockquote>{{ info.description }}</blockquote>
+                    {% if info.hackathon == true %}
+                    <i class="fab fa-hackerrank"></i> Hackathon Project<br/>
+                    {% endif %}
+                    {% if info.gamejam == true %}
+                    <i class="fas fa-gamepad"></i> Game Jam Project<br/>
+                    {% endif %}
+                    {% if info.demoed == true %}
+                    <i class="fas fa-certificate"></i> I demoed!<br/>
+                    {% endif %}
+                    {% for award in info.awards %}
+                    <i class="fas fa-medal"></i> {{ award }} <br/>
+                    {% endfor %}
+                    <small>
+                        Teamed with: {{ info.team }}<br/>
+                        Contribution: {{ info.roledescription }}
+                    </small>
+                </div>
+            </div>
+        </div>
+    </header>
+    {% endfor %}
+    {% endfor %}
+
+<main id="content" class="main-content" role="main" >
+    {{ content }}
+
+    <hr>
+    <div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
+        {% include games_spotlight.html %}
+    </div>
+
+    {% include footer.html %}
+</main>
+</body>
+</html>
