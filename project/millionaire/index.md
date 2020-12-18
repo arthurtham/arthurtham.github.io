@@ -33,22 +33,42 @@ projects:
         videourl: 3o-cTZfk9ss
 ---
 
+# About Millionaire
 "Who Wants to be a Millionaire" is a take on the popular trivia game show of the same name. First created in GameMaker: Studio in 2016, it featured the classic three lifelines and a custom set of questions. It was one of the first GameMaker games I ever made for a target, public group of people in a collegiate club.
-
-For this version 1.2h release, in 2020, I updated its visuals and generalized it so that enthusiasts of the game show can enjoy my first published game. It has mostly the same features as the 2016 version except the questions are from the 2020 US Primetime revival of the show.
 
 The rules of the game are simple: answer 15 questions and you will win 1 Million Virtual Dollars. The more questions you get right, the more virtual money you will win. You have three lifelines to help you, so use them wisely.
 
+Prior to version 1.2, it was a game that I released in 2016 with the help of my friends
+to promote our college club using trivia. "Millionaire" was doing very well in syndication
+and this was one way to bring the magic of the game format to our fellow college students.
+
+For this version 1.2h release, in 2020, I updated its visuals and generalized it so that enthusiasts of the game show can enjoy my first published game. It has mostly the same features as the 2016 version except the questions are from the 2020 US Primetime revival of the show.
+
 Enjoy!
 
-Special Thanks
+---
 
-Poke Pals
-Summer TIP 2016
-Eric Vu and Vincent Tang
-Question writers from version 1.0-1.1h
-YoYoGames for the game engine
-Sony Pictures Television UK for inspiring me through my love for the game
-Made in GameMaker: Studio.
+# Development Process
+Writing this up, coming soon!
 
-This project is a fork/continuation of version 1.1h of the game also known as Millionaire: UCI Circle K Edition.
+---
+# Some Additional Information
+
+#### Special Thanks
+>- Poke Pals
+- Summer TIP 2016
+- Eric Vu and Vincent Tang
+- Question writers from version 1.0-1.1h
+- YoYoGames for the game engine
+- Sony Pictures Television UK for inspiring me through my love for the game
+- Made in GameMaker: Studio.
+
+#### Forked from an old project
+> This project is a fork/continuation of version 1.1h of the game also known as Millionaire: UCI Circle K Edition. The game may not work on the old website.
+  
+  > Fork: 2016-2020 BrowntulStar. Updated in 2020.
+  
+  > Original Game created for UCI Circle K.
+
+>© 2016-17 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
+  YOU MAY NOT DISTRIBUTE, COPY, NOR SELL THIS CONTENT WITHOUT EXPLICIT PERMISSION FROM ITS OWNER.

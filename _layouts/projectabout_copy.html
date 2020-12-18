@@ -91,7 +91,6 @@
                             <a href="{{ info.infourl }}" target="_blank">Info</a></button>
                         {% endif %}
                     </center>
-                    <center>
                     <blockquote>{{ info.description }}</blockquote>
                     {% if info.hackathon == true %}
                     <i class="fab fa-hackerrank"></i> Hackathon Project<br/>
@@ -105,7 +104,10 @@
                     {% for award in info.awards %}
                     <i class="fas fa-medal"></i> {{ award }} <br/>
                     {% endfor %}
-                    </center>
+                    <small>
+                        Teamed with: {{ info.team }}<br/>
+                        Contribution: {{ info.roledescription }}
+                    </small>
                 </div>
             </div>
         </div>
