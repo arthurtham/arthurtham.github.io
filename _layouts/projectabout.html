@@ -81,15 +81,6 @@
                             ">{{ tag }}</span>
                             {% endfor %}
                         </div>
-                        <br />
-                        {% if info.playurl != null %}
-                        <button class="btn btn-light" style="background-color:dodgerblue">
-                            <a href="{{ info.playurl }}" target="_blank" style="color:white">Play</a></button>
-                        {% endif %}
-                        {% if info.infourl != null %}
-                        <button class="btn btn-light" style="background-color:lightgray">
-                            <a href="{{ info.infourl }}" target="_blank">Info</a></button>
-                        {% endif %}
                     </center>
                     <center>
                     <blockquote>{{ info.description }}</blockquote>
@@ -106,6 +97,14 @@
                     <i class="fas fa-medal"></i> {{ award }} <br/>
                     {% endfor %}
                     </center>
+                    <br />
+                    {% if info.playurl != null %}
+                        <a href="{{ info.playurl }}" target="_blank" style="color:white">
+                            <button class="btn btn-light" style="background-color:dodgerblue;width:100%">
+                                Play
+                            </button>
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -115,8 +114,6 @@
 
 <main id="content" class="main-content" role="main" >
     {{ content }}
-
-    <hr>
     <div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
         {% include games_spotlight.html %}
     </div>

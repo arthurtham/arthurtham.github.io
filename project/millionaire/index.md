@@ -54,21 +54,15 @@ Writing this up, coming soon!
 ---
 # Some Additional Information
 
-#### Special Thanks
->- Poke Pals
-- Summer TIP 2016
-- Eric Vu and Vincent Tang
-- Question writers from version 1.0-1.1h
-- YoYoGames for the game engine
-- Sony Pictures Television UK for inspiring me through my love for the game
-- Made in GameMaker: Studio.
+{% for projectItem in page.projects %}
+{% for info in projectItem offset:1 %}
+<p><a href="{{info.infourl}}">itch.io Description</a></p>
+{% endfor %}
+{% endfor %}
 
-#### Forked from an old project
 > This project is a fork/continuation of version 1.1h of the game also known as Millionaire: UCI Circle K Edition. The game may not work on the old website.
   
-  > Fork: 2016-2020 BrowntulStar. Updated in 2020.
+  > Fork: 2016-2020 BrowntulStar.
   
-  > Original Game created for UCI Circle K.
-
->© 2016-17 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
+  > Original Game created for UCI Circle K. >© 2016-17 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
   YOU MAY NOT DISTRIBUTE, COPY, NOR SELL THIS CONTENT WITHOUT EXPLICIT PERMISSION FROM ITS OWNER.

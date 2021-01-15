@@ -73,10 +73,6 @@ A final problem that came up was with the powerful Google Cloud itself. It was v
 
 ![owo](http://www.hackuwu.tech/devpost/owo.png)
 
----
-
-# Some Additional Information
-
 #### Accomplishments that I'm proud of, and What I learned
 The power of uwu has led me on a journey from the front end to the back end, where I had to learn how to set up domain names and the SQL database. I have come out of this uwu quest with a fondness of back end technology. I learned that I could make a fun, simple game without having to spend what seems like months perfecting one. I hope that what I learned from the power of uwu will translate over to my studies and field work.
 
@@ -85,4 +81,13 @@ The power of uwu has led me to create something that may not be necessarily orig
 #### What's next for HackUWU
 HackUWU is well on its way to spreading its sense of joyous uwu to the world. Perhaps when the time comes for UWUcon, HackUWU will return once again with the power of its sponsors.
 
+---
+# Some Additional Information
 
+{% for projectItem in page.projects %}
+{% for info in projectItem offset:1 %}
+<p><a href="{{info.infourl}}">Devpost Description</a></p>
+{% endfor %}
+{% endfor %}
+
+> The "uwu" sponsors did not endorse this game :)

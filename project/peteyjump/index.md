@@ -56,9 +56,16 @@ Writing this up, coming soon!
 ---
 
 # Some Additional Information
-> Game created for UCI Circle K.
 
-> © 2017 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
+{% for projectItem in page.projects %}
+{% for info in projectItem offset:1 %}
+<p><a href="{{info.infourl}}">Devpost Description</a></p>
+{% endfor %}
+{% endfor %}
+
+
+
+> Game created for UCI Circle K. © 2017 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
 YOU MAY NOT DISTRIBUTE, COPY, NOR SELL THIS CONTENT WITHOUT EXPLICIT PERMISSION FROM ITS OWNER.
 
 > Art by Janine Carpena.

@@ -22,6 +22,7 @@ Computer Science Program.
 # Projects
 - [Self-tracking Applications](/research/health/)
 - [Adverse Gameplay in League of Legends](/research/league/)
+- [Know Before You Go](http://www.neerajd.xyz/KnowBeforeYouGo.html)
 
 
 # Lab Involvements
