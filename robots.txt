@@ -4,3 +4,4 @@ Disallow: /img/
 Disallow: /_*/
 Disallow: /favicon/
 Disallow: /browntulstar/
+Disallow: /redirect/
