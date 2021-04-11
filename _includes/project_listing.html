@@ -1,0 +1,92 @@
+{% assign remainder = forloop.index0 | modulo: 3 %}
+{% if remainder == 0 %}
+<div class="row">
+    {% endif %}
+    {% for info in projectItem limit:1 offset:1 %}
+    <div class="col-md-4" style="color:white">
+        <a class="btn btn-dark" data-toggle="modal"
+           data-target="#{{ info.id }}"
+           style="background-color:
+                            {% for award in info.awards limit:1 %}
+                            darkgreen
+                            {% else %}
+                            midnightblue
+                            {% endfor %}
+                            ;width:100%">
+            <img src="/img/carousel{{ info.thumbnail }}.png"
+                 style="height:150px !important;object-fit:cover"/>
+            <br/>
+            <strong>{{ info.shorttitle }}</strong>
+            <br/>
+            {{ info.date }}
+            <br/>
+            {% if info.hackathon == true %}
+            <small><i class="fab fa-hackerrank"></i></small>
+            {% endif %}
+            {% if info.gamejam == true %}
+            <small><i class="fas fa-gamepad"></i></small>
+            {% endif %}
+            {% for award in info.awards %}
+            <small><i class="fas fa-medal"></i></small>
+            {% endfor %}
+            <small>
+                {% for tag in info.tags limit:2 %}
+                <span class="badge
+                            {% case tag %}
+                            {% when 'GameMaker:Studio' %}
+                                badge-success
+                            {% when 'React Native' %}
+                                badge-danger
+                            {% when 'Expo' %}
+                                badge-light
+                            {% when 'Audacity' %}
+                                badge-danger
+                            {% when 'HTML' %}
+                               badge-warning
+                            {% when 'JS' %}
+                               badge-warning
+                            {% when 'Java' %}
+                               badge-warning
+                            {% when 'PHP' %}
+                               badge-danger
+                            {% when 'Android Studio' %}
+                               badge-danger
+                            {% when 'Google Cardboard' %}
+                               badge-danger
+                            {% when 'mySQL' %}
+                               badge-dark
+                            {% when 'Microsoft Malmo' %}
+                               badge-dark
+                            {% when 'Transposit' %}
+                               badge-dark
+                            {% when 'Twilio Sendgrid' %}
+                               badge-danger
+                            {% when 'Twilio API' %}
+                               badge-danger
+                            {% when 'Firebase' %}
+                               badge-danger
+                            {% when 'AWS' %}
+                               badge-warning
+                            {% when 'Google Cloud Platform' %}
+                               badge-danger
+                            {% when 'Python' %}
+                                badge-primary
+                            {% when 'PyTorch' %}
+                                badge-primary
+                            {% when 'Unity' %}
+                                badge-dark
+                            {% else %}
+                                badge-dark
+                            {% endcase %}
+                            ">{{ tag }}</span>
+                {% endfor %}
+            </small>
+        </a>
+
+    </div>
+    {% endfor %}
+{% if remainder == 2 %}
+</div>
+{% elsif forloop.last %}
+</div>
+{% endif %}
