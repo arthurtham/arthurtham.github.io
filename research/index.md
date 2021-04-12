@@ -7,28 +7,28 @@ research:
     self track:
         shorttitle: "Self-tracking Applications"
         id: self-track
-        thumbnail: Apps
+        thumbnail: Apps.png
         description: 
         url: /research/health/
         date: May 2019
     league adverse:
         shorttitle: "Adv. Gameplay in League"
         id: league-adverse
-        thumbnail: League
+        thumbnail: League.PNG
         description: 
         url: /research/league/
         date: March 2020
     know before you go:
         shorttitle: "Know Before You Go"
         id: know-before-you-go
-        thumbnail: Know
+        thumbnail: Know.PNG
         description: 
         url: http://www.neerajd.xyz/KnowBeforeYouGo.html
         date: December 2020
     shoppingo:
         shorttitle: "ShoppinGo"
         id: shoppingo
-        thumbnail: Shoppingo
+        thumbnail: Shoppingo.PNG
         description: 
         url: /research/shoppingo/
         date: March 2021
