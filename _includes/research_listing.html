@@ -1,0 +1,25 @@
+{% assign remainder = forloop.index0 | modulo: 3 %}
+{% if remainder == 0 %}
+<div class="row">
+    {% endif %}
+    {% for info in projectItem limit:1 offset:1 %}
+    <div class="col-md-4" style="color:white">
+        <a class="btn btn-dark" href="{{ info.url }}"
+           style="background-color:
+                            midnightblue
+                            ;width:100%">
+            <img src="/img/research{{ info.thumbnail }}.png"
+                 style="height:150px !important;object-fit:cover"/>
+            <br/>
+            <strong>{{ info.shorttitle }}</strong>
+            <br/>
+            {{ info.date }}
+        </a>
+
+    </div>
+    {% endfor %}
+{% if remainder == 2 %}
+</div>
+{% elsif forloop.last %}
+</div>
+{% endif %}
