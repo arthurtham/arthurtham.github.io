@@ -50,7 +50,7 @@ Towards the end of 2018, my friends started to express their emotions more freel
 
 # Development Process
 
-#### How I built it
+#### Development
 "HackUWU" celebrates UCI's drive to be inclusive to all hackers, sponsors, and game engines. Thus, I decided to give **GameMaker: Studio** one last shot before it truly becomes an obsolete game engine. Its powerful 2D capabilities and light use of processing power, alongside its ability to export to multiple platforms such as HTML5, make this engine the ideal choice for this project.
 
 There is a slight problem with this approach. GameMaker: Studio is not compatible with Apple's macOS, and the only device that I had at HackUCI was a Macbook. Thankfully, I used **Parallels**' virtual machine technology to run Windows alongside macOS so that I can use GameMaker: Studio without a Windows PC.
@@ -64,7 +64,7 @@ To give the Ubuntu instance a proper name, I called on our friends at **dot tech
 Finally, we realized that the power of uwu in person was not enough. So I called on the **SendGrid API** to help spread the word of uwu through our sponsors. With SendGrid on board, alongside our allies in YoyoGames, Apple, Google, dot tech, Adobe Photoshop, and Ubuntu, the power to spread the word of uwu is now endless and full of possibilities!
 
 ![ewe](https://www.hackuwu.tech/devpost/ewe.png)
-#### Challenges I ran into
+#### Challenges
 Alas, it was not a smooth ride to the promised land. In fact, from the beginning, it was realized that GameMaker: Studio's ability to recognize multi-layered mouse clicks was not invincible. Hackers were so excited to uwu that when they expressed uwu, they deleted all of the owos and ewes as well. To solve this problem, I consulted our friends at **Slack** and **Stackoverflow** which came up with a solution to detect the depth of each object, bringing order to chaos once again. 
 
 Then arose another problem. It turns out that sending mail with a computer was very difficult for our bandwagoners. Specifically, when I tried to send our sponsors' digital designs with our electronic mail, their logos became corrupt! This was when I knew that the power of uwu was definitely not invincible. However, thanks to the mighty followers of HackUCI, a mentor was able to solve the issue by linking the images directly from our Google Cloud servers. Now, I can send emails with images without actually sending the images!
@@ -73,21 +73,25 @@ A final problem that came up was with the powerful Google Cloud itself. It was v
 
 ![owo](https://www.hackuwu.tech/devpost/owo.png)
 
-#### Accomplishments that I'm proud of, and What I learned
+#### Accomplishments
 The power of uwu has led me on a journey from the front end to the back end, where I had to learn how to set up domain names and the SQL database. I have come out of this uwu quest with a fondness of back end technology. I learned that I could make a fun, simple game without having to spend what seems like months perfecting one. I hope that what I learned from the power of uwu will translate over to my studies and field work.
 
 The power of uwu has led me to create something that may not be necessarily original in its artwork but definitely the most original game mechanically. I hope that this game inspires others to make something inspiring, even though it may not do much in terms of productivity.
 
-#### What's next for HackUWU
+#### What's next
 HackUWU is well on its way to spreading its sense of joyous uwu to the world. Perhaps when the time comes for UWUcon, HackUWU will return once again with the power of its sponsors.
 
 ---
 # Some Additional Information
 
+>
 {% for projectItem in page.projects %}
 {% for info in projectItem offset:1 %}
 <p><a href="{{info.infourl}}">Devpost Description</a></p>
 {% endfor %}
 {% endfor %}
 
-> The "uwu" sponsors did not endorse this game :)
+> The "HackUCI" artwork and sponsors logo are properties of their respective owners.
+
+> Original: 2019 Arthur Tham. 
+> Published outside of HackUCI under alias.
