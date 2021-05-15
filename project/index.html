@@ -76,6 +76,26 @@ projects:
         communications resulting in dynamic webpage generation."
         videourl:
 games:
+    jeopardy-twilio:
+        id : "jeopardy"
+        thumbnail : "Jeopardy"
+        title : "Jeopardy: The Twilio Text Challenge"
+        shorttitle: "Jeopardy: Twilio"
+        date: February 2021
+        playurl : "http://sandbox.arttham.com/sandbox/JeopardyTwilio/"
+        infourl : "https://devpost.com/software/jeopardy-the-twilio-text-challenge"
+        description : "Use SMS to answer Final Jeopardy questions with your friends!"
+        tags:
+        - "Unity"
+        - "Twilio API"
+        hackathon: true
+        demoed: true
+        awards:
+        team: Solo
+        context: HackSC
+        role: Solo Programmer
+        roledescription: I gave the answers and you give the questions. I got help from the technology's innovations in Twilio, Unity, and Flask for this project.
+        videourl: CupXlzDz5s0
     barista-impact:
         id : "bar"
         thumbnail : "Bar"
@@ -376,7 +396,7 @@ hackathon:
         title : "Twiliostocks"
         shorttitle: "Twiliostocks"
         date: March 2021
-        playurl :
+        playurl : "http://sandbox.arttham.com/sandbox/TwilioStocks/"
         infourl : "https://devpost.com/software/twiliostocks"
         description : "Twirl your way to the moon with Twiliostocks!"
         tags:
@@ -392,26 +412,6 @@ hackathon:
         role: Front-end Programmer, helped with back-end work
         roledescription: I worked on the front-end, the first time I've used the React JS framework. On the back-end, I set up the Twilio framework to work with the Finnhub data to send notifications.
         videourl: CdtKsBReGtw
-    jeopardy-twilio:
-        id : "jeopardy"
-        thumbnail : "Jeopardy"
-        title : "Jeopardy: The Twilio Text Challenge"
-        shorttitle: "Jeopardy: Twilio"
-        date: February 2021
-        playurl :
-        infourl : "https://devpost.com/software/jeopardy-the-twilio-text-challenge"
-        description : "Use SMS to answer Final Jeopardy questions with your friends!"
-        tags:
-        - "Unity"
-        - "Twilio API"
-        hackathon: true
-        demoed: true
-        awards:
-        team: Solo
-        context: HackSC
-        role: Solo Programmer
-        roledescription: I gave the answers and you give the questions. I got help from the technology's innovations in Twilio, Unity, and Flask for this project.
-        videourl: CupXlzDz5s0
     devils-advocate:
         id : "devil"
         thumbnail : "Devil"
@@ -532,18 +532,12 @@ helped code the backend system that saves user settings depending on the quote t
 
 ---
 
-<div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
-{% include games_spotlight.html %}
-</div>
-<hr>
 <div style="padding:10px">
     <center>
-        <h1>All Projects</h1>
     <p><small><i class="fab fa-hackerrank"></i> Hackathon Project
         | <i class="fas fa-gamepad"></i> Game Jam Project
         | <i class="fas fa-medal"></i> Award-winning Project. <br/>
-        Sorted from newest to oldest.<br />
-        Click on a tab to show projects by category!</p>
+        Sorted from newest to oldest.</p>
     </center>
 </div>
 
@@ -561,7 +555,21 @@ helped code the backend system that saves user settings depending on the quote t
 <hr />
 <div class="tab-content">
     <div class="tab-pane active" id="gamesCollapse">
+        <div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
+            {% include games_spotlight.html %}
+        </div>
         <div class="container" style="padding:10px">
+            <div class="row" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
+                <div class="col">
+                    <center><h4>Game Engine Usage</h4></center>
+                    <div class="progress" style="height: 35px;">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 42%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"><strong>Unity</strong></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 42%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><strong>GameMaker: Studio</strong></div>
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 16%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><strong>Python</strong></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
             <div class="row">
                 <div class="col-sm-12">
                     {% for projectItem in page.games %}
