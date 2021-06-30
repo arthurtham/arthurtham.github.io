@@ -35,7 +35,7 @@ layout: interest
         <a class="nav-link" data-toggle="tab" href="#sportRef">Referee</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#sportRef">Shoutcaster</a>
+        <a class="nav-link" data-toggle="tab" href="#sportCoordinator">Shoutcaster</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#sportStat">Game Statistics</a>
