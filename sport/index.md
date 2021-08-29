@@ -35,7 +35,7 @@ layout: interest
         <a class="nav-link" data-toggle="tab" href="#sportRef">Referee</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#sportCoordinator">Shoutcaster</a>
+        <a class="nav-link" data-toggle="tab" href="#sportCaster">Shoutcaster</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#sportStat">Game Statistics</a>
@@ -91,6 +91,23 @@ layout: interest
                     Participants in the cohort and the players themselves eventually joined UCI 
                     Intramural Sports leagues as a result of playing in this league.</p>
                     <a href="http://bit.ly/uciebc18" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="sportCaster">
+        <div class="container" style="padding:10px">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 name="turtle" id="turtle">Sportscaster</h1>
+                    <p>
+                    I enrolled in a UCI shoutcasting course hosted by UCI eSports to learn more about the fundamentals
+                    of shoutcasting. Since that class, I shoutcasted multiple amateur VALORANT tournament as a volunteer.
+                    I am also a recurring shoutcaster for Change Thru Games' annual Tetris tournament.
+                    </p>
+                    <iframe src="https://clips.twitch.tv/embed?clip=PlacidExpensiveQueleaWow-4IfEBnrxR6NLMwJS&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><br>
+                    <iframe src="https://clips.twitch.tv/embed?clip=DependableInterestingCaterpillarDatSheffy-96ynNy0K670DdopS&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><br>
+                    <iframe src="https://clips.twitch.tv/embed?clip=ArborealEnjoyableTardigradeUncleNox&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
                 </div>
             </div>
         </div>
