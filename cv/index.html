@@ -5,31 +5,41 @@ published: true
 layout: interest
 ---
 
-<div style="padding:10px">
-    <center>
-    <p></p>
-    </center>
-</div>
+<style>
+    h2 {
+        padding-top: 60px;
+    }
+</style>
 
 <div>
-    <h1><strong>Arthur J. Tham</strong><br><small>Software Engineer, Aspiring Game Developer</small><h1>
+    <h1><strong>Arthur J. Tham</strong><br><small>Software Engineer, Game Designer</small><h1>
     
 </div>
 
-<hr>
+
+
+<div id="toc">text</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#toc').toc();
+    });
+</script>
+
+
 
 <div>
-    <h2>About</h2>
+    <h2 id="about">About</h2>
     <p>I am a software engineer and a recent Master’s degree graduate. I worked on various PC and web applications
          as a programmer and project manager, the resulting applications published primarily on the web. As a new graduate,
           I love learning new technologies when needed. I am currently looking for industry opportunities in software engineering. 
           </p>
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Education</h2>
+    <h2 id="education">Education</h2>
     <div class="container">
         <div class="row">
             <div class="col col-md-6">
@@ -48,35 +58,51 @@ layout: interest
     </div>
 </div>
 
-<hr>
+
 
 
 <div>
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <ul>
         <li><strong>Technical Skills</strong></li>
         <ul>
             <li>Programming: Python, PHP, MySQL, HTML, Java</li>
             <li>Game Engine: GameMaker: Studio (GML), Unity (C#).</li>
             <li>Office: MS Office, Google Drive, Canvas Infrastructure.</li>
-            <li>Operating Systems: Windows, macOS, iOS</li>
+            <li>Operating Systems: Windows, macOS, Raspbian Linux, iOS</li>
         </ul>
     </ul>
     <ul>
         <li><strong>Other Skills</strong></li>
         <ul>
             <li>Project Management/Director: 4 game projects.</li>
-            <li>Social Media Reporter: Facebook Live and Snapchat.</li>
             <li>Languages: English (primary), Mandarin (conversational)</li>
-            <li>Hackathon and Game Jam Mentor: Since 2019</li>
         </ul>
     </ul>
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Experience</h2>
+    <h2 id="experience">Experience</h2>
+    <p>
+        <strong>TwilioQuest Developer and Content Writer</strong><br>
+        <em>Cloudinary Ltd.</em> | Dec 2021 - Present
+        <ul>
+            <li>Provide support to the Cloudinary TwilioQuest extension team by refactoring objectives and enhancing map design, 
+                resulting in an enhanced educational coding experience for new Cloudinary users.</li>
+        </ul>
+    </p>
+    <p>
+        <strong>TwilioQuest Game Designer</strong><br>
+        <em>Twilio, Inc.</em> | Sep 2021 - Dec 2021
+        <ul>
+            <li>Utilize level design, UI/UX, progression, pathing, rewards, and interactive components to create 
+                interactive levels resulting in increased enrichment of topics surrounding technology.</li>
+            <li>Consult player community and curriculum designers to create game-level experiences that encourage 
+                exploration and learning new topics in fun ways.</li>
+        </ul>
+    </p>
     <p>
         <strong>Student Field Operator</strong><br>
         <em>Twilio, Inc.</em> | Feb 2021 - Present
@@ -145,10 +171,10 @@ layout: interest
     </p>
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Volunteer Roles</h2>
+    <h2 id="volunteer">Volunteer Roles</h2>
     <p>
         <strong>Game Jam Mentor</strong><br>
         <em>My First Game Jam (itch.io)</em> | Jan 2020 - Present
@@ -187,10 +213,10 @@ layout: interest
         
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Event Planning</h2>
+    <h2 id="events">Event Planning</h2>
     <p>
         <strong>Edge Basketball Classic</strong><br>
         <em>Director</em> | Jun 2017 - Sep 2018
@@ -220,10 +246,10 @@ layout: interest
     </p>
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Games and Projects</h2>
+    <h2 id="games">Games and Projects</h2>
     <div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
         {% include games_spotlight.html %}
     </div>
@@ -231,10 +257,10 @@ layout: interest
         Check out all my games and projects <a href="/project">here</a>!</p>
 </div>
 
-<hr>
+
 
 <div>
-    <h2>Research</h2>
+    <h2 id="research">Research</h2>
     <p>
         <strong>ShoppinGo</strong><br>
         <em>A Mobile Application Prototype for Efficient Shopping</em><br>
@@ -286,11 +312,11 @@ layout: interest
     <p>Check out <a href="/research">this page</a> for more detailed information!</p>
 </div>
 
-<hr>
+
 
 
 <div>
-    <h2>Awards</h2>
+    <h2 id="awards">Awards</h2>
     <ul>
         <li><strong>Best Entertainment: Petr Jump</strong><br>
             <em>MLH Local Hack Day</em><br>
@@ -340,10 +366,10 @@ layout: interest
     </ul>
 </div>
 
-<hr>
 
-<div>
-    <h2>Featured Articles</h2>
+
+<div id="featured">
+    <h2 id="featured">Featured Articles</h2>
     <ul>
         <li><a href="https://www.twilio.com/blog/what-i-built-arthur-tham" target="_blank">What I Built: Arthur Tham’s uwu-laden pandemic video game</a></li>
         <li><a href="https://mentalhealthindesign.weebly.com/blog/octopet-at-uscs-hacksc-hackathon">
@@ -354,3 +380,4 @@ layout: interest
 
 
 </div>
+
