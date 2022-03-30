@@ -209,6 +209,6 @@ on in some capacity.
 {% endfor %}
 
 > Games (c) 2014-19 Circle K International at UC Irvine, (c) 2015-16 Just the TIP,
-(c) 2016-17 TIP Donuts, (c) 2017-18 RamenTIP, (c) 2017-19 BrowntulStar
+(c) 2016-17 TIP Donuts, (c) 2017-18 RamenTIP.
 > 
 > More in "About" page in-game.
