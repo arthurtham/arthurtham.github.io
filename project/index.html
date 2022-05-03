@@ -1,9 +1,32 @@
 ---
-title: Projects
+title: Coding Projects
 description: Here are some projects I worked on!
 published: true
 layout: interest
 projects:
+    brownie-website:
+        prioritize: true
+        id: "brownie-website"
+        thumbnail : "BrownieWebsite"
+        title: "Twitch Sub Perks Website"
+        shorttitle: "Sub Perks Website"
+        date: May 2022
+        playurl: 
+        infourl: https://arttham.com/redirect/browniewebsite
+        description: 
+        tags:
+        - mySQL
+        - PHP
+        - PHPMyAdmin
+        - Google Cloud
+        hackathon: false
+        demoed: false 
+        awards: 
+        team: Solo
+        context: Personal
+        role: Full-stack Developer
+        roledescription: Deployed LAMP stack and utilized mySQL/PHP backend to host blog posts as a subscription perk for Twitch viewers.
+        videourl: 
     cloudinary-adventures:
         prioritize: true
         id: "cloudinary-adventures"
@@ -311,7 +334,7 @@ projects:
         roledescription: "Set up G-Cloud mySQL back-end. Developed Google VR app using Unity engine, powered by iPhone. Set up in-hackathon beta testing resulting in rapid prototyping of product."
         videourl: McpA5SOFefU
     petr:
-        prioritize : true
+        prioritize : false
         id : "petr"
         thumbnail : "Petr"
         title: "Petr Jump"
@@ -758,9 +781,10 @@ helped code the backend system that saves user settings depending on the quote t
                                         {{ info.title }}
                                     </strong>
                                 </a>
+                                <br/>
                                 <i>
                                     {{ info.date }}
-                                </i><br>
+                                </i> | 
                                 {% if info.hackathon == true %}
                                 <small><i class="fab fa-hackerrank"></i></small>
                                 {% endif %}
