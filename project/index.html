@@ -1,9 +1,30 @@
 ---
-title: Coding Projects
+title: All Projects
 description: Here are some projects I worked on!
 published: true
 layout: interest
 projects:
+    valorant-tournament:
+        prioritize: true
+        id: "valorant-tournament"
+        thumbnail : "valoranttournament"
+        title : "VALORANT Tournament Production"
+        shorttitle: "VALORANT Tournament"
+        date: Jan 2023
+        playurl:
+        infourl: https://arttham.com/redirect/valoranttournament
+        description:
+        tags: 
+        - Google Sheets
+        - OBS
+        hackathon: false
+        demoed: false 
+        awards: 
+        team: Solo
+        context: Personal
+        role: Event Organizer, Broadcast Producer
+        roledescription: Broadcast 33 VALORANT tournament games across 30 hours between 20 teams representing 13 online streamer communities. Utilize OBS and Sheets.io to create custom in-game overlays resulting in an immersive broadcast experience for an average of 70 viewers.
+        videourl: Bgwy7m3vhNs
     brownie-website:
         prioritize: true
         id: "brownie-website"
@@ -289,7 +310,7 @@ projects:
         roledescription: "Managed the production timeline of the game development. Created the level: Jorge Gonzalez."
         videourl: dpqbpFoq3tQ
     owols:
-        prioritize: true
+        prioritize: false
         id : "owols"
         thumbnail : "owols"
         title: "HackUWU Owols"
@@ -485,7 +506,7 @@ projects:
         title: "HackUWU"
         shorttitle: "HackUWU"
         date: February 2019
-        playurl: http://www.hackuwu.tech/anteaters/
+        playurl: https://hackuwu.arttham.com/anteaters/
         infourl: https://devpost.com/software/hackuwu
         description : "450 Owos. 36 Ewes. Unlimited Uwus. Spread the joy of uwu and while dodging common anteater distractions!"
         tags:
@@ -689,15 +710,43 @@ helped code the backend system that saves user settings depending on the quote t
         role: Programmer
         roledescription: "Using PyGame, developed AI and GUI system to play Othello board game."
         videourl:
-
+research:
+    self track:
+        shorttitle: "Self-tracking Applications"
+        id: self-track
+        thumbnail: Apps.png
+        description: 
+        url: /research/health/
+        date: May 2019
+    league adverse:
+        shorttitle: "Adv. Gameplay in League"
+        id: league-adverse
+        thumbnail: League.PNG
+        description: 
+        url: /research/league/
+        date: March 2020
+    know before you go:
+        shorttitle: "Know Before You Go"
+        id: know-before-you-go
+        thumbnail: Know.PNG
+        description: 
+        url: http://www.neerajd.xyz/KnowBeforeYouGo.html
+        date: December 2020
+    shoppingo:
+        shorttitle: "ShoppinGo"
+        id: shoppingo
+        thumbnail: Shoppingo.PNG
+        description: 
+        url: /research/shoppingo/
+        date: March 2021
 ---
 
 
 <div>
-    <div class="container">
+    <!--<div class="container">
         <div class="row" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
             <div class="col">
-                <center><h4>Game Engine Usage</h4></center>
+                <center><h4>Languages</h4></center>
                 <div class="progress" style="height: 35px;">
                     <div class="progress-bar bg-dark" role="progressbar" style="width: 43%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><strong>Unity</strong></div>
                     <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><strong>GameMaker: Studio</strong></div>
@@ -706,7 +755,7 @@ helped code the backend system that saves user settings depending on the quote t
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <br>
     <div class="container" style="background-image: linear-gradient(black,#003333);padding:20px;border-radius: 20px">
         {% include games_spotlight.html %}
@@ -728,7 +777,13 @@ helped code the backend system that saves user settings depending on the quote t
 
 <ul class="nav nav-pills">
     <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#projectsCollapse">Project Highlights</a>
+        <a class="nav-link active" data-toggle="tab" href="#projectsCollapse">Highlights</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#researchCollapse">Research Projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#dataProjectCollapse">Data Analysis</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#allProjectsCollapse">All Projects</a>
@@ -742,7 +797,7 @@ helped code the backend system that saves user settings depending on the quote t
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="col">
-                            <p>Excludes games listed above.</p>
+                            <p>Excludes games spotlight listed above.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -771,6 +826,11 @@ helped code the backend system that saves user settings depending on the quote t
     <div class="tab-pane fade" id="allProjectsCollapse">
         <div class="container" style="padding:10px">
             <div class="row">
+                <div class="col-sm-12">
+                    <p>For now, go <a href="https://dataprojects.arttham.com">here</a> for my data projects.</p>
+                </div>
+            </div>
+            <div>
                 <div class="col-sm-12">
                     <ul>
                     {% for projectItem in page.projects %}
@@ -813,6 +873,26 @@ helped code the backend system that saves user settings depending on the quote t
                         {% endfor %}
                     {% endfor %}
                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="dataProjectCollapse">
+        <div class="container" style="padding:10px">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>For now, go <a href="https://dataprojects.arttham.com">here</a> for my data projects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="researchCollapse">
+        <div class="container" style="padding:10px">
+            <div class="row">
+                <div class="col-sm-12">
+                    {% for projectItem in page.research %}
+                    {% include research_listing.html %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
