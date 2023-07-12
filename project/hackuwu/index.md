@@ -34,7 +34,10 @@ projects:
         The music is loyalty-free."
         videourl: MENaU2NEZyg
 ---
-![sponsors](https://www.hackuwu.tech/devpost/sponsors.png)
+![sponsors](https://hackuwu.arttham.com/devpost/sponsors.png)
+
+# NOTICE
+To manage server costs, this project is only available from 1pm to 8pm, Americas Pacific time zone.
 
 # About HackUWU
 
@@ -44,7 +47,7 @@ Towards the end of 2018, my friends started to express their emotions more freel
 #### What it does
 "HackUWU" brings out the joy of uwu, owo, and ewe in a partnership with the uwu alliance of sponsors. Hackers need to express "uwu" as fast as they can by popping the uwu, owo, and ewe balloons. Along the way, zotAlerts, $2 boba, and Peter's Hack form appear to distract the hackers from spreading the word of uwu. Will the hackers be able to overcome diversity and spread uwu to all of the Anteaters?
 
-![uwu](https://www.hackuwu.tech/devpost/uwu.png)
+![uwu](https://hackuwu.arttham.com/devpost/uwu.png)
 
 ---
 
@@ -63,7 +66,7 @@ To give the Ubuntu instance a proper name, I called on our friends at **dot tech
 
 Finally, we realized that the power of uwu in person was not enough. So I called on the **SendGrid API** to help spread the word of uwu through our sponsors. With SendGrid on board, alongside our allies in YoyoGames, Apple, Google, dot tech, Adobe Photoshop, and Ubuntu, the power to spread the word of uwu is now endless and full of possibilities!
 
-![ewe](https://www.hackuwu.tech/devpost/ewe.png)
+![ewe](https://hackuwu.arttham.com/devpost/ewe.png)
 #### Challenges
 Alas, it was not a smooth ride to the promised land. In fact, from the beginning, it was realized that GameMaker: Studio's ability to recognize multi-layered mouse clicks was not invincible. Hackers were so excited to uwu that when they expressed uwu, they deleted all of the owos and ewes as well. To solve this problem, I consulted our friends at **Slack** and **Stackoverflow** which came up with a solution to detect the depth of each object, bringing order to chaos once again. 
 
@@ -71,7 +74,7 @@ Then arose another problem. It turns out that sending mail with a computer was v
 
 A final problem that came up was with the powerful Google Cloud itself. It was very difficult to use existing tools to transfer our finished project to the Cloud. Thanks to Google's powerful manual called a **documentation**, I was able to figure it out and use the **gcloud tools** to send the game and its support API to the web to be played by millions of hackers around the world.
 
-![owo](https://www.hackuwu.tech/devpost/owo.png)
+![owo](https://hackuwu.arttham.com/devpost/owo.png)
 
 #### Accomplishments
 The power of uwu has led me on a journey from the front end to the back end, where I had to learn how to set up domain names and the SQL database. I have come out of this uwu quest with a fondness of back end technology. I learned that I could make a fun, simple game without having to spend what seems like months perfecting one. I hope that what I learned from the power of uwu will translate over to my studies and field work.

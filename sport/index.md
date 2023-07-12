@@ -16,7 +16,7 @@ layout: interest
             I last played in and worked for the UCI Intramural Sports leagues.</p>
             <p>I am currently interested in shoutcasting for various eSport events.
             I used to commentate VALORANT charity games, and nowadays I commentate Tetris
-                seasonally, also for charity. </p>
+                seasonally, also for charity. I now also freelance as a broadcast producer, since 2022.</p>
         </div>
     </div>
 </div>
@@ -35,11 +35,11 @@ layout: interest
         <a class="nav-link" data-toggle="tab" href="#sportRef">Referee</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#sportCaster">Shoutcaster</a>
+        <a class="nav-link" data-toggle="tab" href="#sportCaster">Esports/Broadcasting</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#sportStat">Game Statistics</a>
-    </li>
+    </li> -->
 </ul>
 <hr />
 <div class="tab-content">
@@ -80,7 +80,7 @@ layout: interest
             <div class="row">
                 <div class="col-sm-12">
                     <h1 name="turtle" id="turtle">Edge Basketball Classic</h1>
-                    <img src="/img/sportsEBC.JPG" />
+                    <img src="/img/sportsEBC.jpg" />
                     <p>With the help of the American Campus Communities and UCI Summer Session, I founded
                     and ran the Edge Basketball Classic for two years. The Edge Basketball Classic was
                     an innovative way for incoming and continuing UCI students to play basketball with
@@ -99,15 +99,14 @@ layout: interest
         <div class="container" style="padding:10px">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 name="turtle" id="turtle">Sportscaster</h1>
+                    <h1 name="turtle" id="turtle">Esports/Broadcasting</h1>
                     <p>
                     I enrolled in a UCI shoutcasting course hosted by UCI eSports to learn more about the fundamentals
-                    of shoutcasting. Since that class, I shoutcasted multiple amateur VALORANT tournament as a volunteer.
-                    I am also a recurring shoutcaster for Change Thru Games' annual Tetris tournament.
+                    of shoutcasting. Since that class, I shoutcasted multiple VALORANT tournaments in the collegiate and streamer space. I also host my own VALORANT events, where I am the broadcast producer: <a href="https://arttham.com/redirect/valoranttournament" target="_blank">Event Link</a>. You can see my full esports and broadcasting portfolio page here: <a href="https://arttham.com/redirect/esports" target="_blank">Portfolio Link</a>.
                     </p>
-                    <iframe src="https://clips.twitch.tv/embed?clip=PlacidExpensiveQueleaWow-4IfEBnrxR6NLMwJS&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><br>
+                    <!-- <iframe src="https://clips.twitch.tv/embed?clip=PlacidExpensiveQueleaWow-4IfEBnrxR6NLMwJS&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><br>
                     <iframe src="https://clips.twitch.tv/embed?clip=DependableInterestingCaterpillarDatSheffy-96ynNy0K670DdopS&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><br>
-                    <iframe src="https://clips.twitch.tv/embed?clip=ArborealEnjoyableTardigradeUncleNox&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+                    <iframe src="https://clips.twitch.tv/embed?clip=ArborealEnjoyableTardigradeUncleNox&parent=www.arttham.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe> -->
                 </div>
             </div>
         </div>
