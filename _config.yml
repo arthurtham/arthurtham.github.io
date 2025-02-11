@@ -3,4 +3,8 @@ description: The official site of Arthur Tham
 show_downloads: false
 theme: jekyll-theme-cayman
 github: [metadata]
-google_analytics: G-JF122J3W2H
+google_analytics: G-JF122J3W2Hbun
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from

@@ -10,7 +10,7 @@ projects:
         title: "HackUWU"
         shorttitle: "HackUWU"
         date: February 2019
-        playurl: http://hackuwu.arttham.com/anteaters/
+        playurl: http://sandbox.arttham.com/HackUWU
         infourl: https://devpost.com/software/hackuwu
         description : "450 Owos. 36 Ewes. Unlimited Uwus. Spread the joy of uwu and while dodging common anteater distractions!"
         tags:

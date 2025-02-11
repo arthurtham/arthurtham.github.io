@@ -9,9 +9,9 @@ projects:
         thumbnail : "Millionaire"
         title : "Who Wants to be a Millionaire"
         shorttitle: "Millionaire"
-        date: June 2020/October 2016
-        playurl : "https://browntulstar.itch.io/millionaire"
-        infourl : "https://browntulstar.itch.io/millionaire"
+        date: February 2025/June 2020/October 2016
+        playurl : "https://sandbox.arttham.com/Millionaire/index.php"
+        infourl : "https://sandbox.arttham.com/Millionaire/index.php"
         description : "Do you have what it takes to win 1 Million dollars?
         Just answer 15 questions! Previously known as Millionaire: UCI Circle K Edition."
         tags:
