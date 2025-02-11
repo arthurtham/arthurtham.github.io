@@ -7,7 +7,7 @@ projects:
     millionaire:
         id : "mil"
         thumbnail : "Millionaire"
-        title : "Who Wants to be a Millionaire"
+        title : "Cash Mountain - Who Wants to be a Millionaire"
         shorttitle: "Millionaire"
         date: February 2025/June 2020/October 2016
         playurl : "https://sandbox.arttham.com/Millionaire/index.php"
@@ -151,7 +151,7 @@ of it and it will continue to be a highlight of my young game development career
 
 > See "Info" for more information and credits.
   
-  > Original: 2016 Arthur Tham. Updated in 2020.
+  > Original: 2016 Arthur Tham. Updated in 2020 and 2025.
   
   > Original Game created for UCI Circle K. 
   >© 2016-17 CIRCLE K INTERNATIONAL AT UNIVERSITY OF CALIFORNIA, IRVINE - ALL RIGHTS RESERVED
