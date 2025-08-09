@@ -10,7 +10,7 @@ projects:
         title: "Petey Jump"
         shorttitle: "Petey Jump"
         date: "November 2017"
-        playurl: "http://nexus.ucicirclek.com/PeteyJump/"
+        playurl: "http://sandbox.arttham.com/PeteyJump"
         infourl: http://www.devpost.com/software/petey-jump/
         description : "In a world full of Peteys, who will train them all?
         It's up to you to mentor the Peteys and win the Spirit award at DCON!"

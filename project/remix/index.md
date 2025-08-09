@@ -10,7 +10,7 @@ projects:
         title: "UCICKI Remix"
         shorttitle: "UCICKI Remix"
         date: March 2019
-        playurl: http://nexus.ucicirclek.com/Remix/
+        playurl: http://sandbox.arttham.com/UCICKIRemix
         infourl: https://devpost.com/software/ucicki-remix
         description : The Biggest Crossover Game in UCICKI History!
         tags:

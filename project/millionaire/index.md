@@ -1,5 +1,5 @@
 ---
-title: Millionaire
+title: Cash Mountain - Who Wants to be a Millionaire
 description: Project Description
 published: true
 layout: projectabout
@@ -33,7 +33,7 @@ projects:
         videourl: 3o-cTZfk9ss
 ---
 
-# About Millionaire
+# About Cash Mountain - Who Wants to be a Millionaire
 
 #### Inspiration
 The game idea was conceived from my love of the game show "Who Wants to be a Millionaire".
