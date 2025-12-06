@@ -10,7 +10,7 @@
             </div>
             <div class="modal-body">
                 {% if info.videourl == null %}
-                <center><img src="/img/carousel{{ info.thumbnail }}.png" style="max-height:300px"
+                <center><img loading="lazy" src="/img/carousel{{ info.thumbnail }}.png" style="max-height:300px"
                 /></center>
                 {% else %}
                 <a href="https://www.youtube.com/watch?v={{ info.videourl }}" target="_blank">

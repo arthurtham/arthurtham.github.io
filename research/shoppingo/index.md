@@ -13,11 +13,7 @@ We developed a prototype design for an efficient shopping experience that embeds
 
 > **Additional Keywords and Phrases:** Augmented reality, Optimization, Indoor navigation, Iterative design, Shopping, Flow charts, Prototyping.
 
-
-<a href="https://docs.google.com/presentation/d/1dEFE_gmToLliuybtmDeBoWqJIz4ImpdUwtZMSBtYM5g" target="blank">Link to Presentation</a>
-
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSYzDQlmHiIHlshTxB0cCdgwFTWFeErYLWRymXWcfgJl9-k87VLuTTtnRJ0pk9VcOo9jZC8KljsBJ8Z/embed?start=false&loop=false" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<a href="https://www.neerajd.xyz/ShoppinGo.html" target="_blank">Link to write-up</a>
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Femh1pcqyCOvmQEO8qtkDAw%2FShoppinGo%3Fscaling%3Dmin-zoom%26node-id%3D1%253A2" allowfullscreen></iframe>
 

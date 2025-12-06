@@ -17,9 +17,7 @@ This paper aims to understand what adverse gameplay elements and characteristics
   Teammate Gameplay in a Multiplayer Online Battle Arena Game. In *Informatics 203 (INF203 ’20).* Irvine, CA, USA, 4 pages. No DOI.
 
 
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vRv6h2CJg4obRT4UcvnI3R5j7Nc8vDY-BFlLDC636tjElGOBUOiU8-2IXd6CNyBNw/pub?start=false&loop=false&delayms=3000" target="blank">Link to Presentation</a>
 
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRv6h2CJg4obRT4UcvnI3R5j7Nc8vDY-BFlLDC636tjElGOBUOiU8-2IXd6CNyBNw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/1vr4npmv0ziVdA-dSO-etPgEtlzh_Xjob/preview" frameborder="0" width="100%" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ![alt-text](/img/researchDBH.png "dbh")

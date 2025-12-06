@@ -16,7 +16,7 @@ A Content Analysis of Popular Diet, Fitness, and Weight Self-Tracking Mobile
  Apps on Google Play. In *International Conference on Information (iConference). 
  Springer.* Borås, Sweden. March 23-26, 2020.
 
-![alt-text](/img/researchApps.jpeg "research")
+<a href="https://www.ideals.illinois.edu/items/114127" target="_blank">View PDF</a>
 
 ![alt-text](/img/researchMid.png "mid")
 ![alt-text](/img/researchDBH.png "dbh")
